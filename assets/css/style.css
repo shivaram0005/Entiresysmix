@@ -338,16 +338,11 @@ a {
 }
 
 
-/* automatic carouse */
+/*start of  automatic carousel section */
 
 .mySlides {
   display: none;
   /* border: 1px solid blue; */
-}
-
-img {
-  
-  
 }
 
 /* Slideshow container */
@@ -1776,3 +1771,5 @@ img {
     
   }
  }
+
+ /* end of footer section */
