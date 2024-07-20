@@ -336,409 +336,242 @@ a {
   }
 }
 
-    /* end of navbar-section */
+/* end of header section */
 
-    /* start of features section */
-    @media only screen and (min-width:60px){
-        .features{
-            width: 100%;
-            /* border: 1px solid red; */
-            position: relative;
-            top: 100px;
-            height: 300px;
-            display: flex;
-            align-items: center;
-        }
+
+ /* start of careers-section */
+ .careers{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 87px;
+    display: flex;
+    align-items: center;
+    background-color: #5c84ab;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     
-        .features .features-content{
-            width: 90%;
-            margin: 0 5%;
-            /* border: 1px solid green; */
-            height: 250px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .features .features-content .left-content {
-            flex: 1;
-            color: #5c84ab;
-        }
-        .features .features-content .left-content h2{
-            font-family: "Outfit",sans-serif;
-            font-style: normal;
-            font-size: 35px;
-            font-weight: 600;
-            line-height: 38px;
-            color: #5c84ab;
-            margin: 10px 0px;
-        }
-        .features .features-content .left-content p{
-            font-family: "Outfit",sans-serif;
-            font-style: normal;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 38px;
-            color: #5c84ab;
-            margin: 10px 0px;
-        }
-        .features .features-content .right-content{
-            flex: 1;
-        }
-        .features .features-content .right-content img{
-            width: 400px;
-            height: 300px;
-        }
-      }
-    @media only screen and (min-width:768px){
-        .features{
-            width: 100%;
-            /* border: 1px solid red; */
-            position: relative;
-            top: 100px;
-            height: 300px;
-            display: flex;
-            align-items: center;
-        }
     
-        .features .features-content{
-            width: 90%;
-            margin: 0 5%;
-            /* border: 1px solid green; */
-            height: 250px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .features .features-content .left-content {
-            flex: 1;
-            color: #5c84ab;
-        }
-        .features .features-content .left-content h2{
-            font-family: "Outfit",sans-serif;
-            font-style: normal;
-            font-size: 41px;
-            font-weight: 600;
-            line-height: 38px;
-            color: #5c84ab;
-            margin: 10px 0px;
-        }
-        .features .features-content .left-content p{
-            font-family: "Outfit",sans-serif;
-            font-style: normal;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 38px;
-            color: #5c84ab;
-            margin: 10px 0px;
-        }
-        .features .features-content .right-content{
-            flex: 1;
-        }
-        .features .features-content .right-content img{
-            width: 400px;
-            height: 300px;
-        }
-      }
-  @media only screen and (min-width:992px){
-    .features{
-        width: 100%;
-        /* border: 1px solid red; */
+  }
+  .careers h2{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 500px;
+    line-height: 38px;
+    position: relative;
+    left: 50px;
+  }
+
+ .careers a{
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+ }
+ .careers a h4{
+    margin: 0px 20px;
+    
+ }
+ .careers a h4:active{
+    color: #fff;
+ }
+  /* end of career section */
+
+   /* start of back-ground section */
+   @media only screen and (max-width:600px){
+    .image-section{
         position: relative;
-        top: 100px;
-        height: 300px;
-        display: flex;
-        align-items: center;
-    }
-
-    .features .features-content{
-        width: 90%;
-        margin: 0 5%;
-        /* border: 1px solid green; */
-        height: 250px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .features .features-content .left-content {
-        flex: 1;
-        color: #5c84ab;
-    }
-    .features .features-content .left-content h2{
-        font-family: "Outfit",sans-serif;
-        font-style: normal;
-        font-size: 41px;
-        font-weight: 600;
-        line-height: 38px;
-        color: #5c84ab;
-        margin: 10px 0px;
-    }
-    .features .features-content .left-content p{
-        font-family: "Outfit",sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 38px;
-        color: #5c84ab;
-        margin: 10px 0px;
-    }
-    .features .features-content .right-content{
-        flex: 1;
-    }
-    .features .features-content .right-content img{
-        width: 600px;
-        height: 300px;
-    }
-  }
-
-  /* end of features-section */
-
- /* start of taskmanagement */
-@media only screen and (max-width:600px){
-    .task-management{
-      width: 100%;
-      height: 650px;
-      position: relative;
-      top: 150px;
-      background-color:#ff006e ;
-      color: #fff;
-      display: flex;
-      align-items: center; 
-      justify-content: center; 
-    }
-    .task-management .task-managementcontent{
-      display: flex;
-      flex-direction: column;
-      margin: 0 5%;
-      width: 90%;
-      height: 550px;
-      /* border: 1px solid green; */
-      justify-content: space-between;
-      /* align-items: center; */
-    }
-    .task-management .task-managementcontent .left-content img{
-        width: 250px;
-        height: 250px;
-    }
-    .task-management .task-managementcontent .right-content{
-      position: relative;
-      left: 30px;
-    }
-    .task-management .task-managementcontent .right-content h1{
-      font-family: "Outfit", sans-serif;
-      font-style: normal;
-      font-size: 18px;
-      font-weight: 600;
-      line-height: 39px;
-      color: #fff;
-      margin: 20px 0px;
-    }
-    .task-management .task-managementcontent .right-content p{
-      font-family: "Outfit", sans-serif;
-        font-style: normal;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 38px;
-        color: #fff;
-        margin: 10px 0;
-        
-    }
-    .task-management .task-managementcontent .right-content button{
-      background-color: #b6004e;
-      color: #fff;
-      padding: 10px;
-      margin: 15px;
-      font-size: 15px;
-      border-radius: 20px;
-      width: 100px;
-    }
-    .task-management .task-managementcontent .right-content button:hover{
-      cursor: pointer;
-    }
-  }
+        /* border: 1px solid red; */
+        top: 89px;
+       }
+       .image-section .content{
+         position: absolute;
+         bottom: 30px;
+         left: 30px;
+       }
+       .image-section .content h1{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 40px;
+         font-weight: 600;
+         line-height: 70px;
+         color: #000;
+         margin: 10px 0px ;
+       }
+       .image-section .content p{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         size: 18px;
+         font-weight: 400;
+         line-height: 38px;
+         color: #000;
+         margin: 10px 0px;
+       }
+       .image-section .content button{
+         padding: 15px 30px;
+         border-radius: 22px;
+         color: #fff;
+         background-color: #5987ab;
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 22px;
+         font-weight: 600;
+         line-height: 22px;
+         color: #fff;
+         margin: 15px 0px ;
+       }
+       .image-section .content button:hover{
+         cursor: pointer;
+       }
+ }
   @media only screen and (min-width:600px){
-    .task-management{
-      width: 100%;
-      height: 600px;
-      position: relative;
-      top: 200px;
-      background-color:#ff006e ;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .task-management .task-managementcontent{
-      display: flex;
-      flex-direction: row;
-      margin: 0 5%;
-      width: 90%;
-      height: 550px;
-      /* border: 1px solid green; */
-      justify-content: space-between;
-      align-items: center;
-    }
-    .task-management .task-managementcontent .left-content img{
-        width: 250px;
-        height: 250px;
-    }
-    .task-management .task-managementcontent .right-content{
-      position: relative;
-      left: 30px;
-    }
-    .task-management .task-managementcontent .right-content h1{
-      font-family: "Outfit", sans-serif;
-      font-style: normal;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 39px;
-      color: #fff;
-      margin: 20px 0px;
-    }
-    .task-management .task-managementcontent .right-content p{
-      font-family: "Outfit", sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 38px;
-        color: #fff;
-        margin: 10px 0;
-        
-    }
-    .task-management .task-managementcontent .right-content button{
-      background-color: #b6004e;
-      color: #fff;
-      padding: 10px;
-      margin: 15px;
-      font-size: 15px;
-      border-radius: 20px;
-      width: 100px;
-    }
-    .task-management .task-managementcontent .right-content button:hover{
-      cursor: pointer;
-    }
-  }
+    .image-section{
+        position: relative;
+        /* border: 1px solid red; */
+        top: 89px;
+       }
+       .image-section .content{
+         position: absolute;
+         bottom: 30px;
+         left: 30px;
+       }
+       .image-section .content h1{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 40px;
+         font-weight: 600;
+         line-height: 70px;
+         color: #000;
+         margin: 10px 0px ;
+       }
+       .image-section .content p{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         size: 18px;
+         font-weight: 400;
+         line-height: 38px;
+         color: #000;
+         margin: 10px 0px;
+       }
+       .image-section .content button{
+         padding: 15px 30px;
+         border-radius: 22px;
+         color: #fff;
+         background-color: #5987ab;
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 22px;
+         font-weight: 600;
+         line-height: 22px;
+         color: #fff;
+         margin: 15px 0px ;
+       }
+       .image-section .content button:hover{
+         cursor: pointer;
+       }
+ }
   @media only screen and (min-width:762px){
-    .task-management{
-      width: 100%;
-      height: 600px;
-      position: relative;
-      top: 200px;
-      background-color:#ff006e ;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .task-management .task-managementcontent{
-      display: flex;
-      flex-direction: row;
-      margin: 0 5%;
-      width: 90%;
-      height: 550px;
-      /* border: 1px solid green; */
-      justify-content: space-between;
-      align-items: center;
-    }
-    .task-management .task-managementcontent .left-content img{
-        width: 300px;
-        height: 300px;
-    }
-    .task-management .task-managementcontent .right-content{
-      position: relative;
-      left: 30px;
-    }
-    .task-management .task-managementcontent .right-content h1{
-      font-family: "Outfit", sans-serif;
-      font-style: normal;
-      font-size: 25px;
-      font-weight: 600;
-      line-height: 39px;
-      color: #fff;
-      margin: 20px 0px;
-    }
-    .task-management .task-managementcontent .right-content p{
-      font-family: "Outfit", sans-serif;
-        font-style: normal;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 38px;
-        color: #fff;
-        margin: 10px 0;
-        
-    }
-    .task-management .task-managementcontent .right-content button{
-      background-color: #b6004e;
-      color: #fff;
-      padding: 10px;
-      margin: 15px;
-      font-size: 15px;
-      border-radius: 20px;
-      width: 100px;
-    }
-    .task-management .task-managementcontent .right-content button:hover{
-      cursor: pointer;
-    }
-  }
-  @media only screen and (min-width:992px){
-    .task-management{
-      width: 100%;
-      height: 440px;
-      position: relative;
-      top: 200px;
-      /* border: 1px solid red; */
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-    .task-management .task-managementcontent{
-      display: flex;
-      flex-direction: row;
-      margin: 0 5%;
-      width: 70%;
-      height: 550px;
-      /* border: 1px solid green; */
-      justify-content: space-between;
-      align-items: center;
-    }
-    .task-management .task-managementcontent .left-content img{
-      width: 280px;
-        height: 280px;
-    }
-    .task-management .task-managementcontent .right-content{
-      position: relative;
-      left: 10px;
-      /* border: 1px solid rebeccapurple; */
-      
-    }
-    .task-management .task-managementcontent .right-content h1{
-      font-family: "Outfit", sans-serif;
-      font-style: normal;
-      font-size: 30px;
-      font-weight: 600;
-      line-height: 39px;
-      color: #fff;
-      margin: 20px 0px;
-    }
-    .task-management .task-managementcontent .right-content p{
-      font-family: "Outfit", sans-serif;
-        font-style: normal;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 38px;
-        color: #fff;
-        margin: 10px 0;
-        
-    }
-   
-  }
-  
-  /* end of taskmanagement */
+    .image-section{
+        position: relative;
+        /* border: 1px solid red; */
+        top: 89px;
+       }
+       .image-section .content{
+         position: absolute;
+         bottom: 30px;
+         left: 30px;
+       }
+       .image-section .content h1{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 54px;
+         font-weight: 600;
+         line-height: 70px;
+         color: #000;
+         margin: 10px 0px ;
+       }
+       .image-section .content p{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         size: 20px;
+         font-weight: 400;
+         line-height: 38px;
+         color: #000;
+         margin: 10px 0px;
+       }
+       .image-section .content button{
+         padding: 15px 30px;
+         border-radius: 22px;
+         color: #fff;
+         background-color: #5987ab;
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 22px;
+         font-weight: 600;
+         line-height: 22px;
+         color: #fff;
+         margin: 15px 0px ;
+       }
+       .image-section .content button:hover{
+         cursor: pointer;
+       }
+ }
+ @media only screen and (min-width:992px){
+    .image-section{
+        position: relative;
+        /* border: 1px solid red; */
+        top: 89px;
+       }
+       .image-section .content{
+         position: absolute;
+         bottom: 200px;
+         left: 30px;
+       }
+       .image-section .content h1{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 54px;
+         font-weight: 600;
+         line-height: 70px;
+         color: #000;
+         margin: 10px 0px ;
+       }
+       .image-section .content p{
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         size: 20px;
+         font-weight: 400;
+         line-height: 38px;
+         color: #000;
+         margin: 10px 0px;
+       }
+       .image-section .content button{
+         padding: 15px 30px;
+         border-radius: 22px;
+         color: #fff;
+         background-color: #5987ab;
+         font-family: "Outfit",sans-serif;
+         font-style: normal;
+         font-size: 22px;
+         font-weight: 600;
+         line-height: 22px;
+         color: #fff;
+         margin: 15px 0px ;
+       }
+       .image-section .content button:hover{
+         cursor: pointer;
+       }
+ }
 
-  /* start of bottleneck section */
+   /* end of background section */
+
+
+      /* start of mission modes fullfillment session */
+   
 @media only screen and (max-width:600px) {
     .bottleneck-section{
       /* border: 1px solid red; */
@@ -758,8 +591,9 @@ a {
       display: flex;
       flex-direction: column;
       margin: 0 5%;
-      width: 70%;
+      width: 90%;
       height: 550px;
+      /* border: 1px solid purple; */
       justify-content: space-between;
       align-items: center;
     }
@@ -805,7 +639,7 @@ a {
       display: flex;
       flex-direction: row;
       margin: 0 5%;
-      width: 70%;
+      width: 90%;
       height: 550px;
       /* border: 1px solid purple; */
       justify-content: space-between;
@@ -853,7 +687,7 @@ a {
       display: flex;
       flex-direction: row;
       margin: 0 5%;
-      width: 70%;
+      width: 90%;
       height: 550px;
       /* border: 1px solid purple; */
       justify-content: space-between;
@@ -886,7 +720,7 @@ a {
     .bottleneck-section{
       /* border: 1px solid red; */
       width: 100%;
-      height: 500px;
+      height: 400px;
       position: relative;
       top: 200px;
       background-color:#2ecc71 ;
@@ -901,7 +735,7 @@ a {
       display: flex;
       flex-direction: row;
       margin: 0 5%;
-      width: 70%;
+      width: 90%;
       height: 550px;
       /* border: 1px solid purple; */
       justify-content: space-between;
@@ -910,10 +744,10 @@ a {
     .bottleneck-section .bottleneck-content .bottlenect-leftcontent h1{
       font-family: "Outfit", sans-serif;
         font-style: normal;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 600;
-        line-height: 39px;
-        color: #fff;
+        line-height: 54px;
+        color: #000;
         margin: 20px 0px;
     } 
     .bottleneck-section .bottleneck-content .bottlenect-leftcontent p{
@@ -921,8 +755,8 @@ a {
         font-style: normal;
         font-size: 18px;
         font-weight: 400;
-        line-height: 38px;
-        color: #fff;
+        line-height: 23px;
+        color:#000;
         margin: 10px 0;
     }
     .bottleneck-section .bottleneck-content .bottleneck-rightcontent img{
@@ -931,11 +765,305 @@ a {
     }
   }
   
-  /* end of bottlenect-section */
+  /* end of mission modes fullfillment section */
+
+  /* 
+  start of module-industry */
+  .module-industry{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 1300px;
+    position: relative;
+    top: 400px;
+    background-color: #e6f3ff;
+
+  }
+
+  .module-industry .heading{
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #000;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  .module-industry  .module-content{
+    width: 90%;
+    /* border: 1px solid green; */
+    margin: 0px 5%;
+    height: 900px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .module-industry .module-content .row-1{
+    width: 100%;
+    height: 380px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .module-industry .module-content .row-1 .content-1{
+    flex: 1;
+    /* border: 1px solid black; */
+    background-color: #0b6dff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .module-industry .module-content .row-1 .content-1  p{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #fff;
+  }
+  .module-industry .module-content .row-1 .content-2{
+    flex: 2;
+    /* border: 1px solid green; */
+  }
+  .module-industry .module-content .row-1 .content-2 img{
+    width: 687px;
+    height: 380px ;
+  }
+  .module-industry .module-content .row-1 .content-3{
+    flex: 1;
+    background-color: #963596;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .module-industry .module-content .row-1 .content-3 p{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .module-industry .module-content .row-2{
+    width: 100%;
+    height: 380px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .module-industry .module-content .row-2 .content-4{
+    flex: 1;
+    border: 1px solid black;
+  }
+  .module-industry .module-content .row-2 .content-4 img{
+    height: 380px;
+    width: 360px;
+  }
+  .module-industry .module-content .row-2 .content-5{
+    flex: 1;
+    /* border: 1px solid red; */
+    background-color: #f13005;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .module-industry .module-content .row-2 .content-5 p{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #fff;
+    text-align: center;
+  }
+  .module-industry .module-content .row-2 .content-6{
+    border: 1px solid black;
+    flex: 1;
+  }
+  .module-industry .module-content .row-2 .content-6 img{
+    height: 380px;
+    width: 360px;
+  }
+  .module-industry .module-content .row-2 .content-7{
+    /* border: 1px solid red; */
+    flex: 1;
+    background-color: #27d787;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .module-industry .module-content .row-2 .content-7 p{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* end of module benefits */
 
 
-   /* end of values */
+  /* start of supportive modules */
 
+  .support-modules{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 500px;
+    position: relative;
+    top: 400px;
+  }
+  .support-modules h1{
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #000;
+    margin-top: 20px;
+   
+  }
+  .support-modules .supportive-content{
+    width: 90%;
+    margin: 0 5%;
+    /* border: 1px solid green; */
+    height: 300px;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .support-modules .supportive-content .content-1{
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .support-modules .supportive-content .content-1 img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+  }
+  .support-modules .supportive-content .content-1 p{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #000;
+    position: relative;
+    top: 50px;
+    left: 20px;
+  }
+
+  /* end of supportive modules */
+
+
+  /* start of addons section */
+  .addons-section{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 500px;
+    position: relative;
+    top: 350px;
+  }
+  .addons-section .heading{
+    text-align: center;
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #000;
+    margin-top: 20px;
+   
+  }
+
+  .addons-section .heading-three{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+
+  .addons-section .inventory{
+    width: 80%;
+    margin: 0 5%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    top: 80px;
+  }
+
+  .addons-section .inventory .inventory-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .addons-section .inventory .inventory-content .heading{
+    padding: 3px 5px;
+  width: 45px;
+  font-size: 25px;
+  background-color: #142dff;
+  color: #fff;
+  border-radius:50%;
+  text-align: center;
+ }
+ .addons-section .inventory .inventory-content .content{
+    position: relative;
+    left: 20px;
+ }
+ .addons-section .inventory .inventory-content .content h1{
+    color: #0b6dff;
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 39px;
+
+ }
+ .addons-section .inventory .inventory-content .content h3{
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #000;
+    margin: 8px 0px;
+ }
+ 
+ /* end of add-ons section */
+
+ /* start of workwithus-section */
  @media only screen and (max-width:600px){
     .workwithus-section{
       width: 100%;
@@ -1186,13 +1314,13 @@ a {
       color: #fff;
     }
    }
-  @media only screen and (min-width:992px){
+ @media only screen and (min-width:992px){
   .workwithus-section{
     width: 100%;
     /* border: 1px solid red; */
     height: 400px;
     position: relative;
-    top: 220px;
+    top: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1260,18 +1388,19 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #000;
     
-  
+
   }
   .workwithus-section .form button:hover{
     cursor: pointer;
     background-color: #34495e;
     color: #fff;
   }
-  }
-  
-  /* end fo workwithus-section */
+ }
+
+ /* end fo workwithus-section */
 
 
+  /* start of footer section */
   @media only screen and (max-width:649px){
     .footer{
       width: 100%;
@@ -1616,7 +1745,7 @@ a {
       width: 100%;
       height: 300px;
       position: relative;
-      top: 300px;
+      top: 520px;
       /* color: #fff; */
       display: flex;
       justify-content: space-between;
