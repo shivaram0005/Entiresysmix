@@ -10,11 +10,11 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --black-color: hsl(220, 24%, 12%);
+  /* --black-color: hsl(220, 24%, 12%);
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
   --white-color: #fff;
-  --body-color: hsl(220, 100%, 97%);
+  --body-color: hsl(220, 100%, 97%); */
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -45,9 +45,9 @@
 }
 
 body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  /* font-family: var(--body-font);
+  font-size: var(--normal-font-size); */
+  /* background-color: var(--body-color); */
 }
 
 ul {
@@ -148,7 +148,7 @@ a {
     width: 0;
   }
   .nav__list {
-    background-color: var(--black-color);
+    /* background-color: var(--black-color); */
     padding-top: 1rem;
   }
 }
@@ -463,17 +463,18 @@ a {
 /* start of customized */
 @media only screen and (max-width:600px){
   .customized{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 800px;
     width: 100%;
     position: relative;
     top: 80px;
-    background-color: #3498DB;
+    background-color: #dee3ff;
     color: #fff;
     /* display: flex; */
     /* flex-direction: row;
     justify-content: space-between; */
     /* align-items: center; */
+    margin: 15px 0px;
   }
   .customized-content{
     /* border: 1px solid black; */
@@ -502,7 +503,7 @@ a {
     font-size: 30px;
     font-weight: 600;
     line-height: 39px;
-    color: #fff;
+    color: #19092f;
     margin:11 0px;
   
   }
@@ -512,7 +513,7 @@ a {
     font-size: 18px;
     font-weight: 400;
     line-height: 38px;
-    color: #fff;
+    color: #19092f;
     margin: 10px 0;
   }
 }
@@ -523,12 +524,13 @@ a {
     width: 100%;
     position: relative;
     top: 80px;
-    background-color: #3498DB;
+    background-color: #dee3ff;
     color: #fff;
     /* display: flex; */
     /* flex-direction: row;
     justify-content: space-between; */
     /* align-items: center; */
+    margin: 15px 0px;
   }
   .customized-content{
     /* border: 1px solid black; */
@@ -557,7 +559,7 @@ a {
     font-size: 30px;
     font-weight: 600;
     line-height: 39px;
-    color: #fff;
+    color: #19092f;
     margin:11 0px;
   
   }
@@ -567,7 +569,7 @@ a {
     font-size: 18px;
     font-weight: 400;
     line-height: 38px;
-    color: #fff;
+    color: #19092f;
     margin: 10px 0;
   }
 }
@@ -578,12 +580,13 @@ a {
     width: 100%;
     position: relative;
     top: 80px;
-    background-color: #3498DB;
+    background-color: #dee3ff;
     color: #fff;
     /* display: flex; */
     /* flex-direction: row;
     justify-content: space-between; */
     /* align-items: center; */
+    margin: 15px 0px;
   }
   .customized-content{
     /* border: 1px solid black; */
@@ -612,7 +615,7 @@ a {
     font-size: 30px;
     font-weight: 600;
     line-height: 39px;
-    color: #fff;
+    color: #19092f;
     margin: 20px 0px;
   
   }
@@ -622,7 +625,7 @@ a {
     font-size: 18px;
     font-weight: 400;
     line-height: 38px;
-    color: #fff;
+    color: #19092f;
     margin: 10px 0;
   }
 }
@@ -633,22 +636,24 @@ a {
     width: 100%;
     position: relative;
     top: 80px;
-    background-color: #3498DB;
-    color: #fff;
+    background-color: #dee3ff;
+    color: #19092f;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 15px 0px;
   }
   .customized-content{
     /* border: 1px solid black; */
     margin: 0 5%;
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    top: 60px;
     
     
   }
@@ -666,20 +671,20 @@ a {
   .customized-content .right-content h1{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 600;
-    line-height: 39px;
-    color: #fff;
+    line-height: 35px;
+    color: #19092f;
     margin: 20px 0px;
   
   }
   .customized-content .right-content p{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 38px;
-    color: #fff;
+    line-height: 35px;
+    color: #19092f;
     margin: 10px 0;
   }
 }
@@ -694,11 +699,12 @@ a {
     height: 600px;
     position: relative;
     top: 80px;
-    background-color:#2ecc71 ;
+    background-color:#008e3b ;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 0px;
     
 
   }
@@ -742,11 +748,12 @@ a {
     height: 600px;
     position: relative;
     top: 80px;
-    background-color:#2ecc71 ;
+    background-color:#008e3b ;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 0px;
     
 
   }
@@ -790,11 +797,12 @@ a {
     height: 600px;
     position: relative;
     top: 80px;
-    background-color:#2ecc71 ;
+    background-color:#008e3b ;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 0px;
     
 
   }
@@ -838,11 +846,12 @@ a {
     height: 600px;
     position: relative;
     top: 80px;
-    background-color:#2ecc71 ;
+    background-color:#008e3b ;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 0px;
     
 
   }
@@ -859,7 +868,7 @@ a {
   .bottleneck-section .bottleneck-content .bottlenect-leftcontent h1{
     font-family: "Outfit", sans-serif;
       font-style: normal;
-      font-size: 30px;
+      font-size: 35px;
       font-weight: 600;
       line-height: 39px;
       color: #fff;
@@ -868,7 +877,7 @@ a {
   .bottleneck-section .bottleneck-content .bottlenect-leftcontent p{
     font-family: "Outfit", sans-serif;
       font-style: normal;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 38px;
       color: #fff;
@@ -889,11 +898,12 @@ a {
     height: 650px;
     position: relative;
     top: 80px;
-    background-color:#ff006e ;
+    background-color:#9065ec ;
     color: #fff;
     display: flex;
     align-items: center; 
     justify-content: center; 
+    margin: 15px 0px;
   }
   .task-management .task-managementcontent{
     display: flex;
@@ -951,11 +961,12 @@ a {
     height: 600px;
     position: relative;
     top: 80px;
-    background-color:#ff006e ;
+    background-color:#9065ec ;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 0px;
   }
   .task-management .task-managementcontent{
     display: flex;
@@ -1013,11 +1024,12 @@ a {
     height: 600px;
     position: relative;
     top: 80px;
-    background-color:#ff006e ;
+    background-color:#9065ec ;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 0px;
   }
   .task-management .task-managementcontent{
     display: flex;
@@ -1075,11 +1087,12 @@ a {
     height: 600px;
     position: relative;
     top: 80px;
-    background-color:#ff006e ;
+    background-color:#9065ec ;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px 0px;
   }
   .task-management .task-managementcontent{
     display: flex;
@@ -1102,7 +1115,7 @@ a {
   .task-management .task-managementcontent .right-content h1{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     line-height: 39px;
     color: #fff;
@@ -1111,7 +1124,7 @@ a {
   .task-management .task-managementcontent .right-content p{
     font-family: "Outfit", sans-serif;
       font-style: normal;
-      font-size: 18px;
+      font-size: 22px;
       font-weight: 400;
       line-height: 38px;
       color: #fff;
@@ -1295,7 +1308,8 @@ a {
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    /* border: 1px solid red; */
   }
   .industry-content .content-1{
     width: 250px;
@@ -1303,6 +1317,11 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    position: relative;
+    left: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
    
   }
   .industry-content .content-1 .img{
@@ -1687,7 +1706,7 @@ a {
   
    }
    .footer .content-1{
-    margin-left: 30px;
+    margin-left: 120px;
    }
   .footer .content-1 img{
     width: 150px;
@@ -1749,7 +1768,7 @@ a {
   
   
   .footer .content-4{
-    margin-right: 20px;
+    margin-right:60px;
   }
   .footer .content-4 h1{
     font-family: "Outfit",sans-serif;

@@ -10,11 +10,11 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --black-color: hsl(220, 24%, 12%);
+  /* --black-color: hsl(220, 24%, 12%);
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
   --white-color: #fff;
-  --body-color: hsl(220, 100%, 97%);
+  --body-color: hsl(220, 100%, 97%); */
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -1755,7 +1755,7 @@ a {
     
      }
      .footer .content-1{
-      margin-left: 30px;
+      margin-left: 120px;
      }
     .footer .content-1 img{
       width: 150px;
@@ -1817,7 +1817,7 @@ a {
     
     
     .footer .content-4{
-      margin-right: 20px;
+      margin-right: 60px;
     }
     .footer .content-4 h1{
       font-family: "Outfit",sans-serif;
