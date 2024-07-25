@@ -1,3 +1,4 @@
+/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap');
@@ -44,8 +45,8 @@
 }
 
 body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  /* font-family: var(--body-font);
+  font-size: var(--normal-font-size); */
   /* background-color: var(--body-color); */
 }
 
@@ -142,12 +143,13 @@ a {
     pointer-events: none;
     opacity: 0;
     transition: top .4s, opacity .3s;
+   
   }
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
   .nav__list {
-    background-color: var(--black-color);
+    /* background-color: var(--black-color); */
     padding-top: 1rem;
   }
 }
@@ -187,6 +189,7 @@ a {
 /*=============== DROPDOWN ===============*/
 .dropdown__item {
   cursor: pointer;
+  
 }
 
 .dropdown__arrow {
@@ -335,50 +338,85 @@ a {
     transition: top .3s;
   }
 }
+/* .dropdown__menu{
+  border: 1px solid red;
+  width: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  display: inline-block;
+} */
+.nav__menu .nav__list .dropdown__item .dropdown__menu{
+  /* border: 1px solid red; */
+}
+.nav__menu .nav__list .nav-link:hover{
+  text-decoration: underline;
+  
+}
+.header .container .nav__menu .nav__list .nav__link  {
+font-family: "Outfit", sans-serif;
+font-style: normal;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+color: #000;
+margin: 0 5px;
+}
 
 /* end of header section */
 
 
  /* start of careers-section */
  .careers{
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 60px;
-    position: relative;
-    top: 87px;
-    display: flex;
-    align-items: center;
-    background-color: #5c84ab;
-    color:#fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    
-    
-  }
-  .careers h2{
-    font-family: "Outfit",sans-serif;
-    font-style: normal;
-    font-size: 22px;
-    font-weight: 500px;
-    line-height: 38px;
-    position: relative;
-    left: 50px;
-  }
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 87px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(92, 132, 171);
+  color:#fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+  
+}
+.careers h2{
+  font-family: "Outfit",sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 500px;
+  line-height: 38px;
+  position: relative;
+  left: 50px;
+}
 
- .careers a{
-    text-decoration: none;
-    position: relative;
-    left: 100px;
- }
- .careers a h4{
-    margin: 0px 20px;
-    
- }
- .careers a h4:active{
-    color: #fff;
- }
+.careers a{
+  text-decoration: none;
+  position: relative;
+  left: 100px;
+  color: #fff;
+  font-family: "Outfit",sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+
+
+}
+.careers a h4{
+  margin: 0px 20px;
+  
+}
+.careers a h4:active{
+  color: #fff;
+}
   /* end of career section */
 
    /* start of back-ground section */
@@ -529,7 +567,7 @@ a {
        .image-section .content{
          position: absolute;
          bottom: 200px;
-         left: 30px;
+         left: 120px;
        }
        .image-section .content h1{
          font-family: "Outfit",sans-serif;
@@ -540,27 +578,20 @@ a {
          color: #000;
          margin: 10px 0px ;
        }
-       .image-section .content p{
-         font-family: "Outfit",sans-serif;
-         font-style: normal;
-         size: 20px;
-         font-weight: 400;
-         line-height: 38px;
-         color: #000;
-         margin: 10px 0px;
-       }
+     
        .image-section .content button{
-         padding: 15px 30px;
-         border-radius: 22px;
-         color: #fff;
-         background-color: #5987ab;
-         font-family: "Outfit",sans-serif;
-         font-style: normal;
-         font-size: 22px;
-         font-weight: 600;
-         line-height: 22px;
-         color: #fff;
-         margin: 15px 0px ;
+        padding: 20px 40px;
+        border-radius: 50px;
+        color: #fff;
+        background-color: #5987ab;
+        font-family: "Outfit",sans-serif;
+        font-style: normal;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 22px;
+        color: #fff;
+        margin: 15px 0px ;
+        border-style: none;
        }
        .image-section .content button:hover{
          cursor: pointer;
@@ -735,7 +766,7 @@ a {
       display: flex;
       flex-direction: row;
       margin: 0 5%;
-      width: 90%;
+      width: 80%;
       height: 550px;
       /* border: 1px solid purple; */
       justify-content: space-between;
@@ -760,7 +791,7 @@ a {
         margin: 10px 0;
     }
     .bottleneck-section .bottleneck-content .bottleneck-rightcontent img{
-      width: 280px;
+      width: 300px;
         height:280px;
     }
   }
@@ -772,7 +803,7 @@ a {
   .module-industry{
     /* border: 1px solid red; */
     width: 100%;
-    height: 1300px;
+    height: 1350px;
     position: relative;
     top: 400px;
     background-color: #e6f3ff;
@@ -796,7 +827,7 @@ a {
     margin: 0px 5%;
     height: 900px;
     position: relative;
-    top: 20px;
+    top: 50px;
     display: flex;
     flex-direction: column;
   }
@@ -816,6 +847,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
 
   }
   .module-industry .module-content .row-1 .content-1  p{
@@ -849,7 +881,7 @@ a {
     font-weight: 400;
     line-height: 23px;
     color: #fff;
-    text-align: center;
+    text-align: left;
   }
 
   .module-industry .module-content .row-2{
@@ -883,7 +915,8 @@ a {
     font-weight: 400;
     line-height: 23px;
     color: #fff;
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
   }
   .module-industry .module-content .row-2 .content-6{
     border: 1px solid black;
@@ -908,7 +941,7 @@ a {
     font-weight: 400;
     line-height: 23px;
     color: #fff;
-    text-align: center;
+    text-align: left;
   }
 
   /* end of module benefits */
@@ -919,9 +952,10 @@ a {
   .support-modules{
     width: 100%;
     /* border: 1px solid red; */
-    height: 500px;
+    height: 600px;
     position: relative;
-    top: 400px;
+    top: 380px;
+    background-image: url("./images/WhatsApp\ Image\ 2024-07-14\ at\ 1.43.54\ AM.jpeg");
   }
   .support-modules h1{
     text-align: center;
@@ -932,6 +966,8 @@ a {
     line-height: 70px;
     color: #000;
     margin-top: 20px;
+    position: relative;
+    top: 30px;
    
   }
   .support-modules .supportive-content{
@@ -940,20 +976,22 @@ a {
     /* border: 1px solid green; */
     height: 300px;
     position: relative;
-    top: 40px;
+    top: 120px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
   .support-modules .supportive-content .content-1{
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
     /* border: 1px solid red; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .support-modules .supportive-content .content-1 img{
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
     object-fit: cover;
     display: block;
     text-align: center;
@@ -983,7 +1021,7 @@ a {
     /* border: 1px solid red; */
     height: 500px;
     position: relative;
-    top: 350px;
+    top: 400px;
   }
   .addons-section .heading{
     text-align: center;
@@ -994,6 +1032,7 @@ a {
     line-height: 70px;
     color: #000;
     margin-top: 20px;
+    
    
   }
 
@@ -1019,7 +1058,7 @@ a {
     align-items: center;
     height: 200px;
     position: relative;
-    top: 80px;
+    top: 60px;
   }
 
   .addons-section .inventory .inventory-content{
@@ -1030,17 +1069,23 @@ a {
   }
 
  .addons-section .inventory .inventory-content .heading{
-    padding: 3px 5px;
-  width: 45px;
-  font-size: 25px;
+    
+  width: 50px;
+  font-size: 24px;
   background-color: #142dff;
   color: #fff;
   border-radius:50%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  
  }
  .addons-section .inventory .inventory-content .content{
     position: relative;
     left: 20px;
+    margin-left: 30px;
  }
  .addons-section .inventory .inventory-content .content h1{
     color: #0b6dff;
@@ -1065,277 +1110,30 @@ a {
 
  /* start of workwithus-section */
  @media only screen and (max-width:600px){
-    .workwithus-section{
-      width: 100%;
-      /* border: 1px solid red; */
-      height: 600px;
-      position: relative;
-      top: 450px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    .workwithus-section .content{
-      flex: 1;
-      height: 500px;
-      width: 400px;
-      /* border: 1px solid red; */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background-color: #34495e;
-      color: #fff;
-      margin-bottom: 10px;
-      
-    }
-    .workwithus-section .content h2{
-      font-weight: 600;
-      font-family: "Outfit",sans-serif;
-      font-style: normal;
-      font-size: 30px;
-      line-height: 39px;
-      color: #fff;
-      position: relative;
-      left: 40px;
-      margin: 10px 0px;
-    }
-    .workwithus-section .content p{
-      font-family: "DM Sans", sans-serif;
-      font-style: normal;
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 38px;
-      color: #fff;
-      position: relative;
-      left: 40px;
-      margin: 5px 0px;
-    }
-    .workwithus-section .form{
-      flex: 1;
-      /* border: 1px solid green; */
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .workwithus-section .form label{
-      font-size: 20px;
-      margin: 10px 0px;
-    }
-    .workwithus-section .form input{
-      padding: 10px;
-      width: 350px;
-    }
-    .workwithus-section .form input:hover{
-      border: 2px solid black;
-    }
-    .workwithus-section .form button{
-      margin: 25px 0px;
-      padding: 10px ;
-      width: 200px;
-      font-size: 15px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      color: #000;
-      
-  
-    }
-    .workwithus-section .form button:hover{
-      cursor: pointer;
-      background-color: #34495e;
-      color: #fff;
-    }
-   }
-  @media only screen and (min-width:600px){
-    .workwithus-section{
-      width: 100%;
-      /* border: 1px solid red; */
-      height: 600px;
-      position: relative;
-      top: 200px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    .workwithus-section .content{
-      flex: 1;
-      height: 500px;
-      width: 400px;
-      /* border: 1px solid red; */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background-color: #34495e;
-      color: #fff;
-      margin-bottom: 10px;
-      
-    }
-    .workwithus-section .content h2{
-      font-weight: 600;
-      font-family: "Outfit",sans-serif;
-      font-style: normal;
-      font-size: 30px;
-      line-height: 39px;
-      color: #fff;
-      position: relative;
-      left: 40px;
-      margin: 10px 0px;
-    }
-    .workwithus-section .content p{
-      font-family: "DM Sans", sans-serif;
-      font-style: normal;
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 38px;
-      color: #fff;
-      position: relative;
-      left: 40px;
-      margin: 5px 0px;
-    }
-    .workwithus-section .form{
-      flex: 1;
-      /* border: 1px solid green; */
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .workwithus-section .form label{
-      font-size: 20px;
-      margin: 10px 0px;
-    }
-    .workwithus-section .form input{
-      padding: 10px;
-      width: 350px;
-    }
-    .workwithus-section .form input:hover{
-      border: 2px solid black;
-    }
-    .workwithus-section .form button{
-      margin: 25px 0px;
-      padding: 10px ;
-      width: 200px;
-      font-size: 15px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      color: #000;
-      
-  
-    }
-    .workwithus-section .form button:hover{
-      cursor: pointer;
-      background-color: #34495e;
-      color: #fff;
-    }
-   }
-  @media only screen and (min-width:768px){
-    .workwithus-section{
-      width: 100%;
-      /* border: 1px solid red; */
-      height: 400px;
-      position: relative;
-      top: 200px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    .workwithus-section .content{
-      flex: 1;
-      height: 400px;
-      /* border: 1px solid blue; */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background-color: #34495e;
-      color: #fff;
-      
-    }
-    .workwithus-section .content h2{
-      font-weight: 600;
-      font-family: "Outfit",sans-serif;
-      font-style: normal;
-      font-size: 30px;
-      line-height: 39px;
-      color: #fff;
-      position: relative;
-      left: 40px;
-      margin: 10px 0px;
-    }
-    .workwithus-section .content p{
-      font-family: "DM Sans", sans-serif;
-      font-style: normal;
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 38px;
-      color: #fff;
-      position: relative;
-      left: 40px;
-      margin: 5px 0px;
-    }
-    .workwithus-section .form{
-      flex: 1;
-      /* border: 1px solid green; */
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .workwithus-section .form label{
-      font-size: 20px;
-      margin: 10px 0px;
-    }
-    .workwithus-section .form input{
-      padding: 10px;
-      width: 350px;
-    }
-    .workwithus-section .form input:hover{
-      border: 2px solid black;
-    }
-    .workwithus-section .form button{
-      margin: 25px 0px;
-      padding: 10px ;
-      width: 200px;
-      font-size: 15px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      color: #000;
-      
-  
-    }
-    .workwithus-section .form button:hover{
-      cursor: pointer;
-      background-color: #34495e;
-      color: #fff;
-    }
-   }
- @media only screen and (min-width:992px){
   .workwithus-section{
     width: 100%;
     /* border: 1px solid red; */
-    height: 400px;
+    height: 600px;
     position: relative;
-    top: 500px;
+    top: 450px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .workwithus-section .content{
     flex: 1;
-    height: 400px;
-    /* border: 1px solid blue; */
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #34495e;
     color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
     
   }
   .workwithus-section .content h2{
@@ -1396,6 +1194,269 @@ a {
     color: #fff;
   }
  }
+@media only screen and (min-width:600px){
+  .workwithus-section{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 600px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .workwithus-section .content{
+    flex: 1;
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #34495e;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  .workwithus-section .content h2{
+    font-weight: 600;
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 39px;
+    color: #fff;
+    position: relative;
+    left: 40px;
+    margin: 10px 0px;
+  }
+  .workwithus-section .content p{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #fff;
+    position: relative;
+    left: 40px;
+    margin: 5px 0px;
+  }
+  .workwithus-section .form{
+    flex: 1;
+    /* border: 1px solid green; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .workwithus-section .form label{
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  .workwithus-section .form input{
+    padding: 10px;
+    width: 350px;
+  }
+  .workwithus-section .form input:hover{
+    border: 2px solid black;
+  }
+  .workwithus-section .form button{
+    margin: 25px 0px;
+    padding: 10px ;
+    width: 200px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
+    
+
+  }
+  .workwithus-section .form button:hover{
+    cursor: pointer;
+    background-color: #34495e;
+    color: #fff;
+  }
+ }
+@media only screen and (min-width:768px){
+  .workwithus-section{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 400px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .workwithus-section .content{
+    flex: 1;
+    height: 400px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    
+  }
+  .workwithus-section .content h2{
+    font-weight: 600;
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 39px;
+    color: #fff;
+    position: relative;
+    left: 40px;
+    margin: 10px 0px;
+  }
+  .workwithus-section .content p{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #fff;
+    position: relative;
+    left: 40px;
+    margin: 5px 0px;
+  }
+  .workwithus-section .form{
+    flex: 1;
+    /* border: 1px solid green; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .workwithus-section .form label{
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+  .workwithus-section .form input{
+    padding: 10px;
+    width: 350px;
+  }
+  .workwithus-section .form input:hover{
+    border: 2px solid black;
+  }
+  .workwithus-section .form button{
+    margin: 25px 0px;
+    padding: 10px ;
+    width: 200px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000;
+    
+
+  }
+  .workwithus-section .form button:hover{
+    cursor: pointer;
+    background-color: #34495e;
+    color: #fff;
+  }
+ }
+@media only screen and (min-width:992px){
+.workwithus-section{
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 400px;
+  position: relative;
+  top: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.workwithus-section .content{
+  flex: 1;
+  height: 400px;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  
+}
+.workwithus-section .content h2{
+  font-weight: 600;
+  font-family: "Outfit",sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 39px;
+  color: #fff;
+  position: relative;
+  left: 40px;
+  margin: 10px 0px;
+}
+.workwithus-section .content p{
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #fff;
+  position: relative;
+  left: 40px;
+  margin: 5px 0px;
+}
+.workwithus-section .form{
+  flex: 1;
+  /* border: 1px solid green; */
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.workwithus-section .form label{
+  font-size: 21px;
+  margin: 10px 0px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  color: #000;
+
+}
+.workwithus-section .form input{
+  padding: 10px;
+  width: 350px;
+}
+.workwithus-section .form input:hover{
+  border: 2px solid black;
+}
+.workwithus-section .form button{
+  margin: 25px 0px;
+  padding: 10px ;
+  width: 200px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #000;
+  border-style: none;
+  font-family: "Outfit",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  
+
+}
+.workwithus-section .form button:hover{
+  cursor: pointer;
+  background-color: #34495e;
+  color: #fff;
+  border-style: none;
+}
+}
 
  /* end fo workwithus-section */
 
@@ -1455,7 +1516,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1482,7 +1543,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1509,7 +1570,7 @@ a {
       color: #137547;
     }
     .footer .content-4 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1571,7 +1632,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1598,7 +1659,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1625,7 +1686,7 @@ a {
       color: #137547;
     }
     .footer .content-4 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1684,7 +1745,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1710,7 +1771,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1732,7 +1793,7 @@ a {
       color: #137547;
     }
     .footer .content-4 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1745,7 +1806,7 @@ a {
       width: 100%;
       height: 300px;
       position: relative;
-      top: 520px;
+      top: 510px;
       /* color: #fff; */
       display: flex;
       justify-content: space-between;
@@ -1767,7 +1828,7 @@ a {
       font-style: normal;
       font-size: 16px;
       font-weight: 400;
-      line-height: 34px;
+      line-height: 38px;
       color: #000;
     }
     
@@ -1785,7 +1846,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1807,7 +1868,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1833,7 +1894,7 @@ a {
       color: #137547;
     }
     .footer .content-4 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1841,5 +1902,4 @@ a {
       
     }
    }
-  
    /* end of footer section */

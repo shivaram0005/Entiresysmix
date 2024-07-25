@@ -14,11 +14,12 @@
 </head>
 <body>
      <!-- start of navbar-section -->
-     <header class="header" style="background-color: #fff; height: 80px;" >
+     <header class="header" style="background-color: #fff; height: 80px; font-family: 'Outfit',sans-serif; font-style: normal; font-weight: 500;
+     color: #000; line-height: 20px;font-size: 18px;">
         <nav class="nav container">
            <div class="nav__data">
               <a href="index.html" class="nav__logo">
-                <img style="width: 100px; height: 50px; position: relative;right:80px;" src="./images/Page 2sysmix logo.png" alt="">
+                 <img style="width: 150px; height: 47px; position: relative;right:130px;" src="./images/Page 2sysmix logo.png" alt="">
               </a>
               
               <div class="nav__toggle" id="nav-toggle">
@@ -30,9 +31,12 @@
            <!--=============== NAV MENU ===============-->
            <div class="nav__menu" id="nav-menu">
               <ul class="nav__list">
-                 <li><a href="index.html" class="nav__link">Home</a></li>
-
-                 <li><a href="features.html" class="nav__link">Features</a></li>
+                 <li class="nav-link active-link">
+                    <a href="index.html" class="nav__link">Home</a>
+                 </li>
+                 <li class="nav-link">
+                    <a href="/features.html" class="nav__link">Features</a>
+                 </li>
 
                  <!--=============== DROPDOWN 1 ===============-->
                
@@ -41,33 +45,52 @@
 
                  <!--=============== DROPDOWN 2 ===============-->
                  <li class="dropdown__item">
-                    <div class="nav__link">
+                    <div class="nav__link" >
                        Industries <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                     </div>
+                    <ul class="dropdown__menu"  >
+                      <div style=" position: relative;
+                      right: 980px; background-color: #5c84ab; color: #fff; width:1600px;
+                      text-align: center;display: flex;
+                      justify-content: center;align-items: center; height: 200px;">
+                       
+                          <li class="nav-link" style=" margin: 15px 0px; ">
+                             <a href="flavourindustry.html" class="dropdown__link">
+                                 Flavour Industry
+                             </a>   
+                                                  
+                          </li>
+  
+                          <li class="nav-link">
+                             <a href="seafoodindustry.html" class="dropdown__link">
+                                 Sea Food Industry
+                                 
+                             </a>
+                             
+                          </li>
+                       
 
-                    <ul class="dropdown__menu" style="background-color: #5c84ab; color: #fff;">
-                       <li>
-                          <a href="flavourindustry.html" class="dropdown__link">
-                              Flavour Industry
-                          </a>                          
-                       </li>
-
-                       <li>
-                          <a href="seafoodindustry.html" class="dropdown__link">
-                              Sea Food Industry
-                          </a>
-                       </li>
-
-                       <li>
-                          <a href="otherindustries.html" class="dropdown__link">
-                              Other Industries
-                          </a>
-                       </li>
+                    
+                          <li class="nav-link">
+                             <a href="otherindustries.html" class="dropdown__link">
+                                 Other Industries
+                             </a>
+                             
+                          </li>
+                       
+                      </div>
                     </ul>
+                   
                  </li>
 
-                 <li><a href="aboutus.html" class="nav__link">About Us</a></li>
-                 <li><a href="career.html" class="nav__link">Careers</a></li>
+                 <li class="nav-link">
+                    <a href="aboutus.html" class="nav__link">About Us</a>
+                    <div class="underline"></div>
+                 </li>
+                 <li class="nav-link"> 
+                    <a href="career.html" class="nav__link">Careers</a>
+                   
+                 </li>
               </ul>
            </div>
         </nav>
@@ -80,10 +103,10 @@
             <h2>Industries</h2>
         </div>
        <div>
-        <a href="flavourindustry.html"><h4>Flavour Industry</h4></a>
+        <a href="flavourindustry.html" ><h4>Flavour Industry</h4></a>
        </div>
        <div>
-        <a href="seafoodindustry.html"><h4>Sea Food Industry</h4></a>
+        <a href="seafoodindustry.html" style="text-decoration: underline;text-decoration-thickness: 2px;"><h4>Sea Food Industry</h4></a>
        </div>
        <div>
         <a href="otherindustries.html"><h4>Other Industries</h4></a>
@@ -95,7 +118,7 @@
      <div class="image-section">
         <img src="./images/Page 1Food.jpg" alt="" srcset="" style="width:100%;">
         <div class="content">
-            <h1 style="color: #fff;">The Sea Food <br> Process Industry</h1>
+            <h1 style="color: #fff;">The Seafood <br> Process Industry</h1>
             <!-- <p>When samples become an integral part of your business,The Stack|N|Trace <br> Workflow CRM can become a crucial factor in driving profitability and growth </p> -->
             <button>Request Demo</button>
         </div>
@@ -115,11 +138,12 @@
                 </h1>
                     <p style="color: #000">A salesperson or a member of the ops team creates a sales order for <br> export or inland shipment with multiple line items. The shipment could <br> consist of a LCL or FCL cargo with the transite mode being Air / Road / <br> Sea.
                         <br>
+                        <br>
                         Somewhere else, in the production area, the supervisor of a production <br> team runs on his phone Stack|N|Trace’s finished goods app. This app <br> pulls in all order data on wakeup and then attaches the batched <br> production data containing uniquely coded QR codes to the order data. <br> The cycle continues for hours, days, weeks, months until the order’s <br> requirements are completed.
                         </p>
            </div>
-           <div class="bottleneck-rightcontent">
-              <img src="./images/Page 2Seafood 2.png" alt="" style="width: 400px;height: 400px; position: relative; right: 100px;">
+           <div class="bottleneck-rightcontent" style="position: relative;left:150px;">
+              <img src="./images/Page 2Seafood 2.png" alt="" style="width: 600px;height: 400px; position: relative; right: 100px;">
            </div>
 
         </div>
@@ -133,7 +157,7 @@
        <div class="bottleneck-section" style="background-color: #fff; position: relative;top:300px;" >
         <div class="bottleneck-content">
             <div class="bottleneck-rightcontent">
-                <img src="./images/Page 3Ph.png" alt="" style="width: 400px;height: 400px; position: relative; left: 100px;">
+                <img src="./images/Page 3Ph.png" alt="" style="width: 500px;height: 500px; position: relative; right: 50px;left: 50px;">
              </div>
            <div class="bottlenect-leftcontent">
                  <!-- <h1 style="color:#000">
@@ -189,14 +213,15 @@
                 <!-- <div class="content-1">
                     <p>if a sample dispatch does not <br> translate to an order then the <br> system creates a feedback <br> submission task for the salesperson <br> to complete the loop and re-open <br>the request for a fresh dispatch of <br> samples should the customer want <br> one</p>
                 </div> -->
-                <div class="content-2" style="flex: 2;">
-                    <img src="./images/Page 2advamtages.jpg" alt="">
-                </div>
                 <div class="content-3" style="flex: 2;">
                     <p>
                     Decision making pertaining to purchases, inventory <br> management and pricing.
                     </p>
                 </div>
+                <div class="content-2" style="flex: 2;">
+                    <img src="./images/Page 2advamtages.jpg" alt="">
+                </div>
+               
             </div>
             
         </div>
@@ -210,18 +235,20 @@
     <div class="support-modules">
         <h1 class="heading">Supportive Modules</h1>
         <div class="supportive-content">
-            <div class="content-1">
-                <img src="./images/Module 1.jpg" alt="">
-                <p>Sales Order Management System</p>
-            </div>
+            
             <div class="content-1">
                 <img src="./images/Module 2.jpg" alt="">
-                <p>Price Calculator for <br> Multiple Product Based <br> Shipments</p></div>
-            <div class="content-1"><img src="./images/Module 3.jpg" alt="">
-                <p>Sales Register of Historical <br> Sales Data</p></div>
-            <div class="content-1"><img src="./images/Module 4.jpg" alt="">
+                <p>Price Calculator for <br> Multiple Product Based <br> Shipments</p>
+            </div>
+            <div class="content-1">
+                <img src="./images/Module 3.jpg" alt="">
+                <p>Sales Register of Historical <br> Sales Data</p>
+            </div>
+            <div class="content-1">
+                <img src="./images/Module 4.jpg" alt="">
                 <p>Shipping Docs, Inland & <br>Export Sales
-                </p></div>
+                </p>
+            </div>
         </div>
        </div>
 
@@ -263,7 +290,7 @@
                     <div class="inventory-content">
                         <p class="heading" style="background-color: #f13005;">4</p>
                         <div class="content">
-                            <h1 style="color: #f13005;">Raw Material</h1>
+                            <h1 style="color: #f13005;">RAW MATERIAL</h1>
                             <h3>Management Module</h3>
                         </div>
                     </div>
@@ -281,65 +308,65 @@
            <!-- end of addons-section -->
 
              <!-- start of workwithus-section -->
-     <div class="workwithus-section">
-        <div class="content">
-           <h2>Work with us</h2>
-           <p><i class="fa-solid fa-phone" style="color: #fff; margin-right: 5px;"></i> 9884037476</p>
-           <p><i class="fa-solid fa-envelope" style="color: #fff; margin-right: 5px;"></i> jobs@sysmix.com</p>
-        </div>
-        <div class="form">
-           <form>
-              <label for="fname">Name:</label><br>
-              <input type="text" id="fname" name="fname" style="margin: 10px 0px;"><br>
-              <label for="lname">Email:</label><br>
-              <input type="text" id="lname" name="lname" style="margin: 10px 0px;"> <br>
-              <label for="lphone">Phone:</label><br>
-              <input type="email" id="lphone" name="lphone" style="margin: 10px 0px;" > <br>
-              <button>Submit</button>
-            </form>
-        </div>
-  
-       </div>
+             <div class="workwithus-section">
+                <div class="content">
+                   <h2>Contact us today</h2>
+                   <p><i class="fa-solid fa-phone" style="color: #fff; margin-right: 5px;"></i> 9884037476</p>
+                   <p><i class="fa-solid fa-envelope" style="color: #fff; margin-right: 5px;"></i> jobs@sysmix.com</p>
+                </div>
+                <div class="form">
+                   <form>
+                      <label for="fname">Name:</label><br>
+                      <input type="text" id="fname" name="fname" style="margin: 10px 0px;"><br>
+                      <label for="lname">Email:</label><br>
+                      <input type="text" id="lname" name="lname" style="margin: 10px 0px;"> <br>
+                      <label for="lphone">Phone:</label><br>
+                      <input type="email" id="lphone" name="lphone" style="margin: 10px 0px;" > <br>
+                      <button>Submit</button>
+                    </form>
+                </div>
+          
+               </div>
   
        <!-- end of workwithus-section -->
 
          <!-- start of footer section -->
-     <div class="footer">
-        <div class="content-1">
-           <img src="./images/Page 2sysmix logo.png" alt="">
-           <p>Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real <br> time.</p>
-        </div>
-        <div class="content-2">
-           <h1>Industries</h1>
-           <ul>
-               <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
-           </ul>
-        </div>
-        <div class="content-3">
-           <h1>Quick Links</h1>
-           <ul>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
-           </ul>
-        </div>
-        <div class="content-4">
-           <h1>Contact Us</h1>
-           <ul>
-              <a href=""><li><i class="fa-solid fa-phone"style="color:#000;"></i> 9884037476</li></a>
-              <a href=""><li><i class="fa-solid fa-envelope " style="color:#000;"></i> sales@sysmix.com</li></a>
-              <div style="display: flex;flex-direction: row;">
-                 <i class="fa-brands fa-facebook-f " style="margin: 5px 5px; cursor: pointer;"></i>
-                 <i class="fa-brands fa-instagram" style="margin: 5px 5px; cursor: pointer;"></i>
-                 <i class="fa-brands fa-twitter" style="margin: 5px 5px; cursor: pointer;"></i>
-              </div>
-              
-           </ul>
-        </div>
-       </div>
-  
+    
+         <div class="footer">
+            <div class="content-1">
+               <img src="./images/Page 2sysmix logo.png" alt="">
+               <p>Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real <br> time.</p>
+            </div>
+            <div class="content-2">
+               <h1>Industries</h1>
+               <ul>
+                   <a href="flavourindustry.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
+                  <a href="seafoodindustry.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
+                  <a href="otherindustries.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
+               </ul>
+            </div>
+            <div class="content-3">
+               <h1>Quick Links</h1>
+               <ul>
+                  <a href="features.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
+                  <a href="aboutus.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
+                  <a href="career.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
+               </ul>
+            </div>
+            <div class="content-4">
+               <h1>Contact Us</h1>
+               <ul>
+                  <a href=""><li><i class="fa-solid fa-phone"style="color:#000;"></i> 9884037476</li></a>
+                  <a href=""><li><i class="fa-solid fa-envelope " style="color:#000;"></i> sales@sysmix.com</li></a>
+                  <div style="display: flex;flex-direction: row; margin-top: 6px;">
+                     <i class="fa-brands fa-facebook-f " style="margin: 5px 5px; cursor: pointer;"></i>
+                     <i class="fa-brands fa-instagram" style="margin: 5px 5px; cursor: pointer;"></i>
+                     <i class="fa-brands fa-twitter" style="margin: 5px 5px; cursor: pointer;"></i>
+                  </div>
+                  
+               </ul>
+            </div>
+           </div>
        <!-- end of footer section -->
 
 </body>
