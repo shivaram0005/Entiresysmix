@@ -14,64 +14,87 @@
 </head>
 <body>
     <!--=============== HEADER ===============-->
-    <header class="header" style="background-color: #fff; height: 80px;" >
-        <nav class="nav container">
-           <div class="nav__data">
-              <a href="#" class="nav__logo">
-               <img style="width: 100px; height: 50px; position: relative;right:80px;" src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-2sysmix-logo.png" alt="">
-              </a>
+    <header class="header" style="background-color: #fff; height: 80px; font-family: 'Outfit',sans-serif; font-style: normal; font-weight: 500;
+    color: #000; line-height: 20px;font-size: 18px;">
+       <nav class="nav container">
+          <div class="nav__data">
+             <a href="index.html" class="nav__logo">
+                <img style="width: 150px; height: 47px; position: relative;right:130px;" src="./images/Page 2sysmix logo.png" alt="">
+             </a>
+             
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__burger"></i>
+                <i class="ri-close-line nav__close"></i>
+             </div>
+          </div>
+
+          <!--=============== NAV MENU ===============-->
+          <div class="nav__menu" id="nav-menu">
+             <ul class="nav__list">
+                <li class="nav-link active-link">
+                   <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav-link">
+                   <a href="/features.html" class="nav__link" style="text-decoration: underline;">Features</a>
+                </li>
+
+                <!--=============== DROPDOWN 1 ===============-->
               
-              <div class="nav__toggle" id="nav-toggle">
-                 <i class="ri-menu-line nav__burger"></i>
-                 <i class="ri-close-line nav__close"></i>
-              </div>
-           </div>
+                
+                
 
-           <!--=============== NAV MENU ===============-->
-           <div class="nav__menu" id="nav-menu">
-              <ul class="nav__list">
-                 <li><a href="index.html" class="nav__link">Home</a></li>
+                <!--=============== DROPDOWN 2 ===============-->
+                <li class="dropdown__item">
+                   <div class="nav__link" >
+                      Industries <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                   </div>
+                   <ul class="dropdown__menu"  >
+                     <div style=" position: relative;
+                     right: 980px; background-color: #5c84ab; color: #fff; width:1600px;
+                     text-align: center;display: flex;
+                     justify-content: center;align-items: center; height: 200px;">
+                      
+                         <li class="nav-link" style=" margin: 15px 0px; ">
+                            <a href="flavourindustry.html" class="dropdown__link">
+                                Flavour Industry
+                            </a>   
+                                                 
+                         </li>
+ 
+                         <li class="nav-link">
+                            <a href="seafoodindustry.html" class="dropdown__link">
+                                Sea Food Industry
+                                
+                            </a>
+                            
+                         </li>
+                      
 
-                 <li><a href="features.html" class="nav__link">Features</a></li>
+                   
+                         <li class="nav-link">
+                            <a href="otherindustries.html" class="dropdown__link">
+                                Other Industries
+                            </a>
+                            
+                         </li>
+                      
+                     </div>
+                   </ul>
+                  
+                </li>
 
-                 <!--=============== DROPDOWN 1 ===============-->
-               
-                 
-                 
-
-                 <!--=============== DROPDOWN 2 ===============-->
-                 <li class="dropdown__item">
-                    <div class="nav__link">
-                       Industries <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                    </div>
-
-                    <ul class="dropdown__menu" style="background-color: #5c84ab; color: #fff;">
-                       <li>
-                          <a href="flavourindustry.html" class="dropdown__link">
-                              Flavour Industry
-                          </a>                          
-                       </li>
-
-                       <li>
-                          <a href="seafoodindustry.html" class="dropdown__link">
-                              Sea Food Industry
-                          </a>
-                       </li>
-
-                       <li>
-                          <a href="otherindustries.html" class="dropdown__link">
-                              Other Industries
-                          </a>
-                       </li>
-                    </ul>
-                 </li>
-
-                 <li><a href="aboutus.html" class="nav__link">About Us</a></li>
-                 <li><a href="career.html" class="nav__link">Careers</a></li>
-              </ul>
-           </div>
-        </nav>
-     </header>
+                <li class="nav-link">
+                   <a href="aboutus.html" class="nav__link">About Us</a>
+                   <div class="underline"></div>
+                </li>
+                <li class="nav-link"> 
+                   <a href="career.html" class="nav__link">Careers</a>
+                  
+                </li>
+             </ul>
+          </div>
+       </nav>
+    </header>
      <!-- end of header section -->
 
      <!-- start of features-section -->
@@ -92,10 +115,10 @@
      <!-- end of features-section -->
 
       <!-- start of task-management 1 -->
-      <div class="task-management" style="background-color: #eac5da;">
+      <div class="task-management" >
         <div class="task-managementcontent">
            <div class="left-content">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-5first.png" alt="">
+              <img src="./images/Page 5first.png" alt="">
            </div>
            <div class="right-content">
               <h1 style="color: #3b556f;">
@@ -109,7 +132,7 @@
     <!-- end of task-management -->
 
      <!-- bottleneck section  2-->
-     <div class="bottleneck-section" style="background-color: #f5d485;">
+     <div class="bottleneck-section">
         <div class="bottleneck-content">
            <div class="bottlenect-leftcontent">
                  <h1 style="color: #3b556f;">
@@ -119,7 +142,7 @@
                         related to a group of requests can also be effectively troubleshooted using the pipeline <br> view analysis for a range of requests.</p>
            </div>
            <div class="bottleneck-rightcontent">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-10.png" alt="">
+              <img src="./images/Page 10.png" alt="">
            </div>
 
         </div>
@@ -128,10 +151,10 @@
       <!-- end of bottlenect section -->
 
        <!-- start of task-management 3 -->
-       <div class="task-management" style="background-color: #ead1dc;">
+       <div class="task-management">
         <div class="task-managementcontent">
            <div class="left-content">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-2.png" alt="">
+              <img src="./images/Page 2.png" alt="">
            </div>
            <div class="right-content">
               <h1 style="color: #3b556f;">
@@ -146,7 +169,7 @@
     <!-- end of task-management -->
 
      <!-- bottleneck section  4-->
-     <div class="bottleneck-section" style="background-color: #f5d6ba;">
+     <div class="bottleneck-section" >
         <div class="bottleneck-content">
            <div class="bottlenect-leftcontent">
                  <h1 style="color: #3b556f;">
@@ -154,7 +177,7 @@
                     <p style="color: #3b556f;">Want to monitor your team’s follow-ups? Stack|N|Trace CRM, based on business rules,<br> allows the sales head or a territory manager to subscribe to an associate member’s <br> follow-ups as needed to ensure that no follow-ups are missed during the day.</p>
            </div>
            <div class="bottleneck-rightcontent">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-4a.png" alt="">
+              <img src="./images/Page 4a.png" alt="">
            </div>
 
         </div>
@@ -163,10 +186,10 @@
       <!-- end of bottlenect section -->
 
        <!-- start of task-management 5 -->
-       <div class="task-management" style="background-color: #ffc07f;">
+       <div class="task-management">
         <div class="task-managementcontent">
            <div class="left-content">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-5.png" alt="">
+              <img src="./images/Page 5.png" alt="">
            </div>
            <div class="right-content">
               <h1 style="color: #3b556f;">
@@ -181,7 +204,7 @@ notifications with monitoring</h1>
     <!-- end of task-management -->
 
     <!-- bottleneck section  6-->
-    <div class="bottleneck-section" style="background-color: #ffb49d;">
+    <div class="bottleneck-section" >
         <div class="bottleneck-content">
            <div class="bottlenect-leftcontent">
                  <h1 style="color: #3b556f;">
@@ -191,7 +214,7 @@ notifications with monitoring</h1>
                     <p style="color: #3b556f;">Email threads running into pages will be a thing of the past. With Stack|N|Trace CRM <br> chats are confined to the realm of a specific request, making it less cumbersome for the <br> operations team to digest the messages and take lucid action. Share files annotate just like you would do on your social network.</p>
            </div>
            <div class="bottleneck-rightcontent">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-6a.png" alt="">
+              <img src="./images/Page 6a.png" alt="">
            </div>
 
         </div>
@@ -200,10 +223,10 @@ notifications with monitoring</h1>
       <!-- end of bottlenect section -->
 
        <!-- start of task-management 7 -->
-       <div class="task-management" style="background-color: #eac5da;">
+       <div class="task-management" >
         <div class="task-managementcontent">
            <div class="left-content">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-7a.png" alt="">
+              <img src="./images/Page 7a.png" alt="">
            </div>
            <div class="right-content">
               <h1 style="color: #3b556f;">
@@ -218,7 +241,7 @@ notifications with monitoring</h1>
     <!-- end of task-management -->
 
      <!-- bottleneck section  8-->
-     <div class="bottleneck-section" style="background-color: #ffb49d;">
+     <div class="bottleneck-section" >
         <div class="bottleneck-content">
            <div class="bottlenect-leftcontent">
                  <h1 style="color: #3b556f;">
@@ -226,7 +249,7 @@ notifications with monitoring</h1>
                     <p style="color: #3b556f;">Stack|N|Trace CRM creates all necessary shipping documents in one go from the order <br> area without the need for copying and pasting between different files.</p>
            </div>
            <div class="bottleneck-rightcontent">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-8a.png" alt="">
+              <img src="./images/Page 8a.png" alt="">
            </div>
 
         </div>
@@ -235,10 +258,10 @@ notifications with monitoring</h1>
       <!-- end of bottlenect section -->
 
         <!-- start of task-management 9 -->
-        <div class="task-management" style="background-color: #eeb5cc;">
+        <div class="task-management" >
             <div class="task-managementcontent">
                <div class="left-content">
-                  <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-9a.png" alt="">
+                  <img src="./images/Page 9a.png" alt="">
                </div>
                <div class="right-content">
                   <h1 style="color: #3b556f;">
@@ -254,7 +277,7 @@ and ops with our Dashboards</h1>
         <!-- end of task-management -->
 
          <!-- bottleneck section  10-->
-     <div class="bottleneck-section" style="background-color: #f5d485;">
+     <div class="bottleneck-section" >
         <div class="bottleneck-content">
            <div class="bottlenect-leftcontent">
                  <h1 style="color: #3b556f;">
@@ -263,7 +286,7 @@ and ops with our Dashboards</h1>
                     <p style="color: #3b556f;">If past sales data has been maintained on an accounting system such as Tally or an ERP, <br> they could brought in to Stack|N|Trace system for quicker and wider analysis using a <br> table or a chart based approach.</p>
            </div>
            <div class="bottleneck-rightcontent">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-10a.png" alt="">
+              <img src="./images/Page 10a.png" alt="">
            </div>
 
         </div>
@@ -272,10 +295,10 @@ and ops with our Dashboards</h1>
       <!-- end of bottlenect section -->
 
        <!-- start of task-management 11 -->
-       <div class="task-management" style="background-color: #eac5da;">
+       <div class="task-management">
         <div class="task-managementcontent">
            <div class="left-content">
-              <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-11a.png" alt="">
+              <img src="./images/Page 11a.png" alt="">
            </div>
            <div class="right-content">
               <h1 style="color: #3b556f;">
@@ -288,7 +311,7 @@ and ops with our Dashboards</h1>
     <!-- end of task-management -->
 
         <!-- bottleneck section  12-->
-        <div class="bottleneck-section" style="background-color: #f5d485;height: 600px;">
+        <div class="bottleneck-section" style="height: 600px;">
             <div class="bottleneck-content">
                <div class="bottlenect-leftcontent">
                      <h1 style="color: #3b556f;">
@@ -315,7 +338,7 @@ and ops with our Dashboards</h1>
                </div>
                
                <div class="bottleneck-rightcontent">
-                  <img src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-12a.png" alt="">
+                  <img src="./images/Page 12a.png" alt="">
                </div>
     
             </div>
@@ -326,17 +349,17 @@ and ops with our Dashboards</h1>
             <!-- start of workwithus-section -->
      <div class="workwithus-section">
         <div class="content">
-           <h2>Work with us</h2>
+           <h2>Contact us today</h2>
            <p><i class="fa-solid fa-phone" style="color: #fff; margin-right: 5px;"></i> 9884037476</p>
            <p><i class="fa-solid fa-envelope" style="color: #fff; margin-right: 5px;"></i> jobs@sysmix.com</p>
         </div>
         <div class="form">
            <form>
-              <label for="fname">Name:</label><br>
+              <label for="fname" style="color: #fff;">Name:</label><br>
               <input type="text" id="fname" name="fname" style="margin: 10px 0px;"><br>
-              <label for="lname">Email:</label><br>
+              <label for="lname" style="color: #fff;">Email:</label><br>
               <input type="text" id="lname" name="lname" style="margin: 10px 0px;"> <br>
-              <label for="lphone">Phone:</label><br>
+              <label for="lphone" style="color: #fff;">Phone:</label><br>
               <input type="email" id="lphone" name="lphone" style="margin: 10px 0px;" > <br>
               <button>Submit</button>
             </form>
@@ -347,34 +370,35 @@ and ops with our Dashboards</h1>
        <!-- end of workwithus-section -->
 
          <!-- start of footer section -->
-      <div class="footer">
+      <div class="footer" style="color: #fff;">
         <div class="content-1">
            <img src="./images/Page 2sysmix logo.png" alt="">
-           <p>Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real <br> time.</p>
+           <p style="color: #fff;">Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real <br> time.</p>
         </div>
         <div class="content-2">
-           <h1>Industries</h1>
+           <h1 style="color: #fff;">Industries</h1>
            <ul>
-               <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
+               <a href="flavourindustry.html"><li style="color: #fff;"><i class="fa-solid fa-check" style="color:#fff;"></i> The Flavour Industry</li></a>
+              <a href="seafoodindustry.html"><li style="color: #fff;"><i class="fa-solid fa-check" style="color:#fff;"></i> The Seafood Industry</li></a>
+              <a href="otherindustries.html"><li style="color: #fff;"><i class="fa-solid fa-check" style="color:#fff;"></i> Other Industry</li></a>
            </ul>
         </div>
         <div class="content-3">
-           <h1>Quick Links</h1>
+           <h1 style="color: #fff;">Quick Links</h1>
            <ul>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
-              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
+              <a href="features.html"><li style="color: #fff;"><i class="fa-solid fa-check" style="color:#fff;"></i> Features</li></a>
+              <a href="aboutus.html"><li style="color: #fff;"><i class="fa-solid fa-check" style="color:#fff;"></i> About Us</li></a>
+              <a href="career.html"><li style="color: #fff;"><i class="fa-solid fa-check" style="color:#fff;"></i> Careers</li></a>
            </ul>
         </div>
         <div class="content-4">
-           <h1>Contact Us</h1>
+           <h1 style="color: #fff;">Contact Us</h1>
            <ul>
-              <a href=""><li><i class="fa-solid fa-phone"style="color:#000;"></i> 9884037476</li></a>
-              <a href=""><li><i class="fa-solid fa-envelope " style="color:#000;"></i> sales@sysmix.com</li></a>
-              <div style="display: flex;flex-direction: row;">
-                 <i class="fa-brands fa-facebook-f " style="margin: 5px 5px; cursor: pointer;"></i>
+              <a href=""><li style="color: #fff;"><i class="fa-solid fa-phone"style="color:#fff;"></i> 9884037476</li></a>
+              <a href=""><li style="color: #fff;"><i class="fa-solid fa-envelope " style="color:#fff;"></i> sales@sysmix.com</li></a>
+              <div style="display: flex;flex-direction: row; margin-top: 6px;">
+                 <i class="fa-brands fa-facebook-f  " style=" margin: 5px 5px; cursor: pointer;
+            "></i>
                  <i class="fa-brands fa-instagram" style="margin: 5px 5px; cursor: pointer;"></i>
                  <i class="fa-brands fa-twitter" style="margin: 5px 5px; cursor: pointer;"></i>
               </div>
@@ -384,6 +408,9 @@ and ops with our Dashboards</h1>
        </div>
   
        <!-- end of footer section -->
+        <script src="./assets/js/main.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="./features.js"></script>
 
 </body>
 </html>

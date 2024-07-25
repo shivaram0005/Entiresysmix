@@ -1,3 +1,4 @@
+/*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap');
@@ -44,8 +45,8 @@
 }
 
 body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  /* font-family: var(--body-font);
+  font-size: var(--normal-font-size); */
   /* background-color: var(--body-color); */
 }
 
@@ -142,12 +143,13 @@ a {
     pointer-events: none;
     opacity: 0;
     transition: top .4s, opacity .3s;
+   
   }
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
   .nav__list {
-    background-color: var(--black-color);
+    /* background-color: var(--black-color); */
     padding-top: 1rem;
   }
 }
@@ -187,6 +189,7 @@ a {
 /*=============== DROPDOWN ===============*/
 .dropdown__item {
   cursor: pointer;
+  
 }
 
 .dropdown__arrow {
@@ -335,6 +338,40 @@ a {
     transition: top .3s;
   }
 }
+/* .dropdown__menu{
+  border: 1px solid red;
+  width: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  display: inline-block;
+} */
+.nav__menu .nav__list .dropdown__item .dropdown__menu{
+  /* border: 1px solid red; */
+}
+.nav__menu .nav__list .nav-link:hover{
+  text-decoration: underline;
+  
+}
+.header .container .nav__menu .nav__list .nav__link  {
+font-family: "Outfit", sans-serif;
+font-style: normal;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+color: #000;
+margin: 0 5px;
+}
+
+
+
+
+
+
+/* end of header section */
 
     /* end of navbar-section */
 
@@ -502,7 +539,7 @@ a {
       height: 650px;
       position: relative;
       top: 150px;
-      background-color:#ff006e ;
+      /* background-color:#ff006e ; */
       color: #fff;
       display: flex;
       align-items: center; 
@@ -564,7 +601,7 @@ a {
       height: 600px;
       position: relative;
       top: 200px;
-      background-color:#ff006e ;
+      /* background-color:#ff006e ; */
       color: #fff;
       display: flex;
       align-items: center;
@@ -626,7 +663,7 @@ a {
       height: 600px;
       position: relative;
       top: 200px;
-      background-color:#ff006e ;
+      /* background-color:#ff006e ; */
       color: #fff;
       display: flex;
       align-items: center;
@@ -746,7 +783,7 @@ a {
       height: 600px;
       position: relative;
       top: 80px;
-      background-color:#2ecc71 ;
+      /* background-color:#2ecc71 ; */
       color: #fff;
       display: flex;
       align-items: center;
@@ -793,7 +830,7 @@ a {
       height: 600px;
       position: relative;
       top: 80px;
-      background-color:#2ecc71 ;
+      /* background-color:#2ecc71 ; */
       color: #fff;
       display: flex;
       align-items: center;
@@ -841,7 +878,7 @@ a {
       height: 600px;
       position: relative;
       top: 80px;
-      background-color:#2ecc71 ;
+      /* background-color:#2ecc71 ; */
       color: #fff;
       display: flex;
       align-items: center;
@@ -889,7 +926,7 @@ a {
       height: 500px;
       position: relative;
       top: 200px;
-      background-color:#2ecc71 ;
+      /* background-color:#2ecc71 ; */
       color: #fff;
       display: flex;
       align-items: center;
@@ -935,6 +972,8 @@ a {
 
 
    /* end of values */
+
+   /* start of workwith-us section */
 
  @media only screen and (max-width:600px){
     .workwithus-section{
@@ -1202,12 +1241,13 @@ a {
   .workwithus-section .content{
     flex: 1;
     height: 400px;
-    /* border: 1px solid blue; */
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #34495e;
     color: #fff;
+    text-align: center;
     
   }
   .workwithus-section .content h2{
@@ -1242,8 +1282,12 @@ a {
     align-items: center;
   }
   .workwithus-section .form label{
-    font-size: 20px;
+    font-size: 21px;
     margin: 10px 0px;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
   }
   .workwithus-section .form input{
     padding: 10px;
@@ -1256,9 +1300,14 @@ a {
     margin: 25px 0px;
     padding: 10px ;
     width: 200px;
-    font-size: 15px;
+    font-size: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #000;
+    border-style: none;
+    font-family: "Outfit",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
     
   
   }
@@ -1266,6 +1315,7 @@ a {
     cursor: pointer;
     background-color: #34495e;
     color: #fff;
+    border-style: none;
   }
   }
   
@@ -1283,7 +1333,7 @@ a {
       justify-content: space-between;
       align-items: center;
       /* border: 1px solid red; */
-      background-color: #e6e6e6;
+      /* background-color: #e6e6e6; */
       flex-wrap: wrap;
     
      }
@@ -1326,7 +1376,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1353,7 +1403,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1399,7 +1449,7 @@ a {
       justify-content: space-between;
       align-items: center;
       /* border: 1px solid red; */
-      background-color: #e6e6e6;
+      /* background-color: #e6e6e6; */
       flex-wrap: wrap;
     
      }
@@ -1442,7 +1492,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1469,7 +1519,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1496,7 +1546,7 @@ a {
       color: #137547;
     }
     .footer .content-4 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1515,7 +1565,7 @@ a {
       justify-content: space-between;
       align-items: center;
       /* border: 1px solid red; */
-      background-color: #e6e6e6;
+      /* background-color: #e6e6e6; */
     
      }
      .footer .content-1{
@@ -1555,7 +1605,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1581,7 +1631,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1603,7 +1653,7 @@ a {
       color: #137547;
     }
     .footer .content-4 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1622,7 +1672,7 @@ a {
       justify-content: space-between;
       align-items: center;
       /* border: 1px solid red; */
-      background-color: #e6e6e6;
+      /* background-color: #e6e6e6; */
     
      }
      .footer .content-1{
@@ -1656,7 +1706,7 @@ a {
       color: #137547;
     }
     .footer .content-2 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1678,7 +1728,7 @@ a {
       color: #137547;
     }
     .footer .content-3 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;
@@ -1704,7 +1754,7 @@ a {
       color: #137547;
     }
     .footer .content-4 ul a li{
-      font-family: "DM Sans", sans-serif;
+      font-family: "Outfit", sans-serif;
       font-style: normal;
       size: 16px;
       font-weight: 400;

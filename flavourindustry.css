@@ -349,7 +349,7 @@ a {
     top: 87px;
     display: flex;
     align-items: center;
-    background-color: #5c84ab;
+    background-color: rgb(92, 132, 171);
     color:#fff;
     display: flex;
     flex-direction: row;

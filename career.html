@@ -15,64 +15,89 @@
 </head>
 <body>
     <!-- start of navbar-section -->
-    <header class="header"  style="background-color: #fff; height: 80px;">
-        <nav class="nav container">
-           <div class="nav__data">
-              <a href="#" class="nav__logo">
-               <img style="width: 100px; height: 50px; position: relative;right:80px;" src="https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Page-2sysmix-logo.png" alt="">
-              </a>
+    <header class="header" style="background-color: #fff; height: 80px; font-family: 'Outfit',sans-serif; font-style: normal; font-weight: 500;
+    color: #000; line-height: 20px;font-size: 18px;">
+       <nav class="nav container">
+          <div class="nav__data">
+             <a href="index.html" class="nav__logo">
+                <img style="width: 150px; height: 47px; position: relative;right:130px;" src="./images/Page 2sysmix logo.png" alt="">
+             </a>
+             
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__burger"></i>
+                <i class="ri-close-line nav__close"></i>
+             </div>
+          </div>
+
+          <!--=============== NAV MENU ===============-->
+          <div class="nav__menu" id="nav-menu">
+             <ul class="nav__list">
+                <li class="nav-link active-link">
+                   <a href="index.html" class="nav__link" >Home</a>
+                </li>
+                <li class="nav-link">
+                   <a href="/features.html" class="nav__link">Features</a>
+                </li>
+
+                <!--=============== DROPDOWN 1 ===============-->
               
-              <div class="nav__toggle" id="nav-toggle">
-                 <i class="ri-menu-line nav__burger"></i>
-                 <i class="ri-close-line nav__close"></i>
-              </div>
-           </div>
+                
+                
 
-           <!--=============== NAV MENU ===============-->
-           <div class="nav__menu" id="nav-menu">
-              <ul class="nav__list">
-                 <li><a href="index.html" class="nav__link">Home</a></li>
+                <!--=============== DROPDOWN 2 ===============-->
+                <li class="dropdown__item">
+                   <div class="nav__link" >
+                      Industries <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                   </div>
+                   <ul class="dropdown__menu"  >
+                     <div style=" position: relative;
+                     right: 980px; background-color: #5c84ab; color: #fff; width:1600px;
+                     text-align: center;display: flex;
+                     justify-content: center;align-items: center; height: 200px;">
+                      
+                         <li class="nav-link" style=" margin: 15px 0px; ">
+                            <a href="flavourindustry.html" class="dropdown__link">
+                                Flavour Industry
+                            </a>   
+                                                 
+                         </li>
+ 
+                         <li class="nav-link">
+                            <a href="seafoodindustry.html" class="dropdown__link">
+                                Sea Food Industry
+                                
+                            </a>
+                            
+                         </li>
+                      
 
-                 <li><a href="features.html" class="nav__link">Features</a></li>
+                   
+                         <li class="nav-link">
+                            <a href="otherindustries.html" class="dropdown__link">
+                                Other Industries
+                            </a>
+                            
+                         </li>
+                      
+                     </div>
+                   </ul>
+                  
+                </li>
 
-                 <!--=============== DROPDOWN 1 ===============-->
-               
-                 
-                 
+                <li class="nav-link">
+                   <a href="aboutus.html" class="nav__link">About Us</a>
+                   <div class="underline"></div>
+                </li>
+                <li class="nav-link"> 
+                   <a href="career.html" class="nav__link" style="text-decoration: underline;">Careers</a>
+                  
+                </li>
+             </ul>
+          </div>
+       </nav>
+    </header>
 
-                 <!--=============== DROPDOWN 2 ===============-->
-                 <li class="dropdown__item">
-                    <div class="nav__link">
-                       Industries <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                    </div>
 
-                    <ul class="dropdown__menu" style="background-color: #5c84ab; color: #fff;">
-                       <li>
-                          <a href="flavourindustry.html" class="dropdown__link">
-                              Flavour Industry
-                          </a>                          
-                       </li>
-
-                       <li>
-                          <a href="seafoodindustry.html" class="dropdown__link">
-                              Sea Food Industry
-                          </a>
-                       </li>
-
-                       <li>
-                          <a href="otherindustries.html" class="dropdown__link">
-                              Other Industries
-                          </a>
-                       </li>
-                    </ul>
-                 </li>
-
-                 <li><a href="#" class="nav__link">About Us</a></li>
-                 <li><a href="career.html" class="nav__link">Careers</a></li>
-              </ul>
-           </div>
-        </nav>
-     </header>
     <!-- end of navbar-section -->
 
     <!-- start of careers section -->
@@ -85,7 +110,7 @@
     <div class="joinustoday-section">
         <div class="joinustoday-content">
             <h4>Join Us Today</h4>
-            <h1>The Right Place For You</h1>
+            <h1>  <span class="v1"></span> The Right Place For You</h1>
             <p>Employees at Sysmix enjoy the challenge of working at the forefront of a dynamic, competitive and rapidly evolving industry. The Company takes every effort to guide and direct individual career aspirations towards a successful goal. Fair and consistent in implementation of people management practices, the Company is committed to ensure equal opportunity based on merit.
                 <br>
                 <br>
@@ -128,17 +153,17 @@
       <div class="content-2">
          <h1>Industries</h1>
          <ul>
-             <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
-            <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
-            <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
+             <a href="flavourindustry.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
+            <a href="seafoodindustry.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
+            <a href="otherindustries.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
          </ul>
       </div>
       <div class="content-3">
          <h1>Quick Links</h1>
          <ul>
-            <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
-            <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
-            <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
+            <a href="features.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
+            <a href="aboutus.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
+            <a href="career.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
          </ul>
       </div>
       <div class="content-4">
@@ -146,7 +171,7 @@
          <ul>
             <a href=""><li><i class="fa-solid fa-phone"style="color:#000;"></i> 9884037476</li></a>
             <a href=""><li><i class="fa-solid fa-envelope " style="color:#000;"></i> sales@sysmix.com</li></a>
-            <div style="display: flex;flex-direction: row;">
+            <div style="display: flex;flex-direction: row; margin-top: 6px;">
                <i class="fa-brands fa-facebook-f " style="margin: 5px 5px; cursor: pointer;"></i>
                <i class="fa-brands fa-instagram" style="margin: 5px 5px; cursor: pointer;"></i>
                <i class="fa-brands fa-twitter" style="margin: 5px 5px; cursor: pointer;"></i>

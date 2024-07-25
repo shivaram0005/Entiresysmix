@@ -14,10 +14,12 @@
 </head>
 <body>
    
+    
+
       <!-- start of careers section -->
       <div class="careers">
         <div>
-            <h2>Industries</h2>
+            <h2>Other Industries</h2>
         </div>
        <div>
         <a href="flavourindustry.html"><h4>Flavour Industry</h4></a>
@@ -32,112 +34,128 @@
     <!-- end of careers section -->
 
     <!-- start of image slider -->
-    <div class="container">
-        <div id="slide">
-            <div class="item" style="background-image: url('https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Export-BG.jpg');">
-                <div class="content">
-                    <div class="name">Export Process Units</div>
-                   
-                    <button>See more</button>
+     
+        <div class="container">
+            <div class="left-panel">
+                <div class="vertical-line"></div>
+                <div class="vertical-dots">
+                    <div class="dot" onclick="currentSlide(0)"><span class="number">1</span></div>
+                    <div class="dot" onclick="currentSlide(1)"><span class="number">2</span></div>
+                    <div class="dot" onclick="currentSlide(2)"><span class="number">3</span></div>
+                    <div class="dot" onclick="currentSlide(3)"><span class="number">4</span></div>
                 </div>
             </div>
-            <div class="item" style="background-image: url('https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/03/31192046/shutterstock_1268044990-1-1024x682.jpg');">
-                <div class="content">
-                    <div class="name">Cashew Process Units</div>
-                    
-                    <button>See more</button>
-                </div>
+            <div class="title-panel">
+                <h1 class="card-title"></h1>
             </div>
-            <div class="item" style="background-image: url('https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Coir-Pith-BG.jpg');">
-                <div class="content">
-                    <div class="name">Coir Pith Manufacturing Industry</div>
-                   
-                    <button>See more</button>
-                </div>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide" data-background="background2.jpg">
+                        <div class="card">
+                            <img src="image2.jpg" alt="Cashew Process Units">
+                            <div class="card-content">
+                                <h3>Cashew Process Units</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-background="background3.jpg">
+                        <div class="card">
+                            <img src="image3.jpg" alt="Coir Pith Manufacturing Industry">
+                            <div class="card-content">
+                                <h3>Coir Pith Manufacturing Industry</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-background="background4.jpg">
+                        <div class="card">
+                            <img src="image4.jpg" alt="Consumer Manufacturing Industry">
+                            <div class="card-content">
+                                <h3>Consumable and Electronics Manufacturing</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" data-background="background1.jpg">
+                        <div class="card">
+                            <img src="image1.jpg" alt="Another Industry">
+                            <div class="card-content">
+                                <h3>Exports Process Units</h3>
+                            </div>
+                        </div>
+                    </div>
+                                </div>
             </div>
-            <div class="item" style="background-image: url('https://sysmix.snaptics.agency/wp-content/uploads/2024/07/Consumables-BG.jpg');">
-                <div class="content">
-                    <div class="name">Consumable & <br>
-                        Electronics Manufacturing</div>
-                    
-                    <button>See more</button>
-                </div>
+            <div class="navigation">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
             </div>
-           
         </div>
-        <div class="buttons">
-            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
-            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+     <!-- end of image-slider -->
+
+      <!-- start of workwithus-section -->
+      <div class="workwithus-section">
+        <div class="content">
+           <h2>Work with us</h2>
+           <p><i class="fa-solid fa-phone" style="color: #fff; margin-right: 5px;"></i> 9884037476</p>
+           <p><i class="fa-solid fa-envelope" style="color: #fff; margin-right: 5px;"></i> jobs@sysmix.com</p>
         </div>
-    </div>
-
-    <!-- end of image-slider -->
-
-     <!-- start of workwithus-section -->
-     <div style="position: relative;">
-        <div class="workwithus-section">
-            <div class="content">
-               <h2>Work with us</h2>
-               <p><i class="fa-solid fa-phone" style="color: #fff; margin-right: 5px;"></i> 9884037476</p>
-               <p><i class="fa-solid fa-envelope" style="color: #fff; margin-right: 5px;"></i> jobs@sysmix.com</p>
-            </div>
-            <div class="form">
-               <form>
-                  <label for="fname">Name:</label><br>
-                  <input type="text" id="fname" name="fname" style="margin: 10px 0px;"><br>
-                  <label for="lname">Email:</label><br>
-                  <input type="text" id="lname" name="lname" style="margin: 10px 0px;"> <br>
-                  <label for="lphone">Phone:</label><br>
-                  <input type="email" id="lphone" name="lphone" style="margin: 10px 0px;" > <br>
-                  <button>Submit</button>
-                </form>
-            </div>
-      
-           </div>
-     </div>
+        <div class="form">
+           <form>
+              <label for="fname">Name:</label><br>
+              <input type="text" id="fname" name="fname" style="margin: 10px 0px;"><br>
+              <label for="lname">Email:</label><br>
+              <input type="text" id="lname" name="lname" style="margin: 10px 0px;"> <br>
+              <label for="lphone">Phone:</label><br>
+              <input type="email" id="lphone" name="lphone" style="margin: 10px 0px;" > <br>
+              <button>Submit</button>
+            </form>
+        </div>
+  
+       </div>
   
        <!-- end of workwithus-section -->
-  
+
        <!-- start of footer section -->
-       <div style="position: relative;">
-        <div class="footer">
-            <div class="content-1">
-               <img src="./images/Page 2sysmix logo.png" alt="">
-               <p>Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real <br> time.</p>
-            </div>
-            <div class="content-2">
-               <h1>Industries</h1>
-               <ul>
-                   <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
-                  <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
-                  <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
-               </ul>
-            </div>
-            <div class="content-3">
-               <h1>Quick Links</h1>
-               <ul>
-                  <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
-                  <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
-                  <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
-               </ul>
-            </div>
-            <div class="content-4">
-               <h1>Contact Us</h1>
-               <ul>
-                  <a href=""><li><i class="fa-solid fa-phone"style="color:#000;"></i> 9884037476</li></a>
-                  <a href=""><li><i class="fa-solid fa-envelope " style="color:#000;"></i> sales@sysmix.com</li></a>
-                  <div style="display: flex;flex-direction: row;">
-                     <i class="fa-brands fa-facebook-f " style="margin: 5px 5px; cursor: pointer;"></i>
-                     <i class="fa-brands fa-instagram" style="margin: 5px 5px; cursor: pointer;"></i>
-                     <i class="fa-brands fa-twitter" style="margin: 5px 5px; cursor: pointer;"></i>
-                  </div>
-                  
-               </ul>
-            </div>
-           </div>
+     <div class="footer">
+        <div class="content-1">
+           <img src="./images/Page 2sysmix logo.png" alt="">
+           <p>Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real <br> time.</p>
+        </div>
+        <div class="content-2">
+           <h1>Industries</h1>
+           <ul>
+               <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
+              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
+              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
+           </ul>
+        </div>
+        <div class="content-3">
+           <h1>Quick Links</h1>
+           <ul>
+              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
+              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
+              <a href=""><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
+           </ul>
+        </div>
+        <div class="content-4">
+           <h1>Contact Us</h1>
+           <ul>
+              <a href=""><li><i class="fa-solid fa-phone"style="color:#000;"></i> 9884037476</li></a>
+              <a href=""><li><i class="fa-solid fa-envelope " style="color:#000;"></i> sales@sysmix.com</li></a>
+              <div style="display: flex;flex-direction: row;">
+                 <i class="fa-brands fa-facebook-f " style="margin: 5px 5px; cursor: pointer;"></i>
+                 <i class="fa-brands fa-instagram" style="margin: 5px 5px; cursor: pointer;"></i>
+                 <i class="fa-brands fa-twitter" style="margin: 5px 5px; cursor: pointer;"></i>
+              </div>
+              
+           </ul>
+        </div>
        </div>
   
        <!-- end of footer section -->
+
+   
+
+      
      <script src="./otherindustry.js"></script>
 </body>
 </html>
