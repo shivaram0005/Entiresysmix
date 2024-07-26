@@ -567,7 +567,7 @@ margin: 0 5px;
        .image-section .content{
          position: absolute;
          bottom: 200px;
-         left: 120px;
+         left: 55%;
        }
        .image-section .content h1{
          font-family: "Outfit",sans-serif;
@@ -592,6 +592,8 @@ margin: 0 5px;
         color: #fff;
         margin: 15px 0px ;
         border-style: none;
+        position: relative;
+        left: 300px;
        }
        .image-section .content button:hover{
          cursor: pointer;
@@ -759,6 +761,7 @@ margin: 0 5px;
       display: flex;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
       
   
     }
@@ -772,10 +775,14 @@ margin: 0 5px;
       justify-content: space-between;
       align-items: center;
     }
+   .bottleneck-section .bottleneck-content .bottlenect-leftcontent{
+    flex: 1;
+    min-width: 300px;
+   }
     .bottleneck-section .bottleneck-content .bottlenect-leftcontent h1{
       font-family: "Outfit", sans-serif;
         font-style: normal;
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
         line-height: 54px;
         color: #000;
@@ -784,15 +791,20 @@ margin: 0 5px;
     .bottleneck-section .bottleneck-content .bottlenect-leftcontent p{
       font-family: "Outfit", sans-serif;
         font-style: normal;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 400;
         line-height: 23px;
         color:#000;
         margin: 10px 0;
     }
+    .bottleneck-section .bottleneck-content .bottleneck-rightcontent{
+      flex: 1;
+      min-width: 300px;
+    }
     .bottleneck-section .bottleneck-content .bottleneck-rightcontent img{
       width: 300px;
         height:280px;
+        min-width: 300px;
     }
   }
   
@@ -820,6 +832,9 @@ margin: 0 5px;
     color: #000;
     margin-top: 20px;
     text-decoration: underline;
+    position: relative;
+    top: 20px;
+
   }
   .module-industry  .module-content{
     width: 90%;
@@ -859,7 +874,7 @@ margin: 0 5px;
     color: #fff;
   }
   .module-industry .module-content .row-1 .content-2{
-    flex: 2;
+    /* flex: 2; */
     /* border: 1px solid green; */
   }
   .module-industry .module-content .row-1 .content-2 img{
@@ -893,7 +908,7 @@ margin: 0 5px;
     flex-wrap: wrap;
   }
   .module-industry .module-content .row-2 .content-4{
-    flex: 1;
+    /* flex: 1; */
     border: 1px solid black;
   }
   .module-industry .module-content .row-2 .content-4 img{
@@ -919,8 +934,8 @@ margin: 0 5px;
     margin-left: 20px;
   }
   .module-industry .module-content .row-2 .content-6{
-    border: 1px solid black;
-    flex: 1;
+    /* border: 1px solid black; */
+    /* flex: 1; */
   }
   .module-industry .module-content .row-2 .content-6 img{
     height: 380px;
@@ -928,7 +943,7 @@ margin: 0 5px;
   }
   .module-industry .module-content .row-2 .content-7{
     /* border: 1px solid red; */
-    flex: 1;
+    /* flex: 1; */
     background-color: #27d787;
     display: flex;
     justify-content: center;
@@ -942,6 +957,7 @@ margin: 0 5px;
     line-height: 23px;
     color: #fff;
     text-align: left;
+    margin-left: 20px;
   }
 
   /* end of module benefits */
@@ -956,6 +972,11 @@ margin: 0 5px;
     position: relative;
     top: 380px;
     background-image: url("./images/WhatsApp\ Image\ 2024-07-14\ at\ 1.43.54\ AM.jpeg");
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: fixed;
+   
+
   }
   .support-modules h1{
     text-align: center;
@@ -1069,8 +1090,8 @@ margin: 0 5px;
   }
 
  .addons-section .inventory .inventory-content .heading{
-    
-  width: 50px;
+  padding: 10px 5px;
+  width: 60px;
   font-size: 24px;
   background-color: #142dff;
   color: #fff;
@@ -1080,6 +1101,8 @@ margin: 0 5px;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  height: 60px;
+  font-family: "Outift", sans-serif;
   
  }
  .addons-section .inventory .inventory-content .content{
@@ -1378,13 +1401,10 @@ margin: 0 5px;
 .workwithus-section .content{
   flex: 1;
   height: 400px;
-  /* border: 1px solid blue; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: #34495e;
   color: #fff;
-  text-align: center;
+  text-align:left;
+
   
 }
 .workwithus-section .content h2{
@@ -1417,6 +1437,8 @@ margin: 0 5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  right: 150px;
 }
 .workwithus-section .form label{
   font-size: 21px;
@@ -1457,6 +1479,9 @@ margin: 0 5px;
   border-style: none;
 }
 }
+.form input{
+  border: 1px solid #e7e7e7;
+ }
 
  /* end fo workwithus-section */
 

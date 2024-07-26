@@ -1241,15 +1241,10 @@ margin: 0 5px;
   .workwithus-section .content{
     flex: 1;
     height: 400px;
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #34495e;
     color: #fff;
-    text-align: center;
-    
-  }
+    text-align: left;
+}
   .workwithus-section .content h2{
     font-weight: 600;
     font-family: "Outfit",sans-serif;
@@ -1260,6 +1255,8 @@ margin: 0 5px;
     position: relative;
     left: 40px;
     margin: 10px 0px;
+    
+    
   }
   .workwithus-section .content p{
     font-family: "Outfit", sans-serif;
@@ -1271,6 +1268,9 @@ margin: 0 5px;
     position: relative;
     left: 40px;
     margin: 5px 0px;
+   
+    
+  
   }
   .workwithus-section .form{
     flex: 1;
@@ -1280,6 +1280,8 @@ margin: 0 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 150px;
   }
   .workwithus-section .form label{
     font-size: 21px;
