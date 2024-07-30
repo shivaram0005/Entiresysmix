@@ -76,7 +76,7 @@ a {
   left: 0;
   width: 100%;
   background-color: var(--black-color);
-  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  /* box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3); */
   z-index: var(--z-fixed);
 }
 
@@ -357,13 +357,16 @@ a {
 }
 .nav__menu .nav__list .nav-link:hover{
   text-decoration: underline;
+  text-decoration-color: #ff3465;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
   
 }
 .header .container .nav__menu .nav__list .nav__link  {
 font-family: "Outfit", sans-serif;
 font-style: normal;
 font-size: 18px;
-font-weight: 500;
+font-weight:300;
 line-height: 20px;
 color: #000;
 margin: 0 5px;
@@ -381,33 +384,35 @@ margin: 0 5px;
   top: 87px;
   display: flex;
   align-items: center;
-  background-color: rgb(92, 132, 171);
+  background-color: #e5f3f0;
   color:#fff;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  gap: 60px;
   
   
 }
 .careers h2{
   font-family: "Outfit",sans-serif;
   font-style: normal;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500px;
   line-height: 38px;
   position: relative;
-  left: 50px;
+  left: 92px;
+  color: #00485e;
 }
 
 .careers a{
   text-decoration: none;
   position: relative;
   left: 100px;
-  color: #fff;
+  color: #00485e;
   font-family: "Outfit",sans-serif;
   font-style: normal;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20px;
 
@@ -431,14 +436,18 @@ margin: 0 5px;
 .containerr {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 100%;
   /* max-width: 1200px; */
   margin: auto;
   overflow: hidden;
   background-repeat: no-repeat ;
   height: 1000px;
- 
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
   
+
 }
 
 /* Left panel with dots */
@@ -526,20 +535,21 @@ margin: 0 5px;
   color: white;
   /* font-size: 1.5em; */
   margin: 0;
-  line-height: 1.2;
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Outfit",sans-serif;
   font-style: normal;
   font-weight: 600;
-  line-height: 74px;
+  line-height: 70px;
   text-align: left;
-  overflow: hidden; /* Hide overflow text */
+  word-break: keep-all;
+  /* overflow: hidden; Hide overflow text */
   display: block; /* Use block display to allow line breaks */
-  word-wrap: break-word; /* Break words if necessary */
+  /* word-wrap: break-word; Break words if necessary */
   width: 100%; /* Ensure the title uses available space */
   hyphens: auto; /* Optional: Add hyphenation to break words better */
   /* border: 1px solid red; */
   margin-left: 20px;
+  /* border: 1px solid red; */
 }
 
 /* Card styling */
@@ -597,6 +607,7 @@ margin: 0 5px;
   justify-content: center;
   /* border: 1px solid red; */
   left: 200px;
+  
 }
 
 
@@ -919,11 +930,13 @@ margin: 0 5px;
     /* border: 1px solid red; */
     height: 400px;
     position: relative;
-    top: 100px;
+    top: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .workwithus-section .content{
@@ -932,7 +945,7 @@ margin: 0 5px;
     background-color: #34495e;
     color: #fff;
     text-align: left;
-    
+    box-sizing: border-box;
   }
   .workwithus-section .content h2{
     font-weight: 600;
@@ -965,7 +978,8 @@ margin: 0 5px;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 150px;
+    /* right: 150px; */
+    box-sizing: border-box;
   }
   .workwithus-section .form label{
     font-size: 21px;
@@ -1273,7 +1287,7 @@ margin: 0 5px;
   .footer .content-1 p{
     font-family: "Outfit",sans-serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 34px;
     color: #000;
@@ -1299,7 +1313,7 @@ margin: 0 5px;
   .footer .content-2 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1325,7 +1339,7 @@ margin: 0 5px;
   .footer .content-3 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1347,7 +1361,7 @@ margin: 0 5px;
   .footer .content-4 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1358,7 +1372,7 @@ margin: 0 5px;
     width: 100%;
     height: 300px;
     position: relative;
-    top: 150px;
+    top: 200px;
     /* color: #fff; */
     display: flex;
     justify-content: space-between;

@@ -73,7 +73,7 @@ a {
   left: 0;
   width: 100%;
   background-color: var(--black-color);
-  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  /* box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3); */
   z-index: var(--z-fixed);
 }
 
@@ -354,13 +354,16 @@ a {
 }
 .nav__menu .nav__list .nav-link:hover{
   text-decoration: underline;
+  text-decoration-color: #ff3465;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
   
 }
 .header .container .nav__menu .nav__list .nav__link  {
 font-family: "Outfit", sans-serif;
 font-style: normal;
 font-size: 18px;
-font-weight: 500;
+font-weight:300;
 line-height: 20px;
 color: #000;
 margin: 0 5px;
@@ -627,6 +630,7 @@ margin: 0 5px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      gap: 150px;
     
     }
     .aboutus-section .content{
@@ -657,6 +661,12 @@ margin: 0 5px;
       position: relative;
       left: 20px;
       margin: 10px 0px;
+      box-sizing: border-box;
+      max-width: 100%;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .aboutus-section .images{
       flex: 1;
@@ -676,7 +686,9 @@ margin: 0 5px;
       object-fit: fill;
       border-radius: 15px;
       position: relative;
-      animation: 3s ease-in 1s infinite reverse both running slidein;
+      /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+      animation: fadeInDown 1s ease-out;
+      
     }
     .aboutus-section .images .images-content .image-2{
       width: 180px;
@@ -685,19 +697,53 @@ margin: 0 5px;
       object-fit: fill;
       position: relative;
       left: 30px;
-      animation: 3s ease-in 1s infinite reverse both running slidein;
+      /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+      animation: fadeInRight 1s ease-out;
     }
     .aboutus-section .images .image-3{
       width: 400px;
       height: 200px;
       margin-top: 30px;
       border-radius: 15px;
-      animation: 3s ease-in 1s infinite reverse both running slidein;
-     
+      /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+     animation: fadeInLeft 1s ease-out;
     }
   }
 
 /* end of about-us section */
+
+ /* start of animation */
+  @keyframes fadeInDown {
+    0%{
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ @keyframes fadeInRight{
+  0%{
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+ }
+ @keyframes fadeInLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+ }
+ /* end of animation */
 
 
   /* start of mission driven-session */
@@ -1372,6 +1418,8 @@ margin: 0 5px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .workwithus-section .content{
@@ -1380,6 +1428,7 @@ margin: 0 5px;
   background-color: #34495e;
   color: #fff;
   text-align: left;
+  box-sizing: border-box;
   
 }
 .workwithus-section .content h2{
@@ -1394,7 +1443,7 @@ margin: 0 5px;
   margin: 10px 0px;
 }
 .workwithus-section .content p{
-  font-family: "DM Sans", sans-serif;
+  font-family: "Outift", sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 600;
@@ -1413,7 +1462,8 @@ margin: 0 5px;
   justify-content: center;
   align-items: center;
   position: relative;
-  right: 150px;
+  /* right: 150px; */
+  box-sizing: border-box;
 }
 .workwithus-section .form label{
   font-size: 21px;
@@ -1826,7 +1876,7 @@ margin: 0 5px;
   .footer .content-1 p{
     font-family: "Outfit",sans-serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 38px;
     color: #000;
@@ -1848,7 +1898,7 @@ margin: 0 5px;
   .footer .content-2 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1870,7 +1920,7 @@ margin: 0 5px;
   .footer .content-3 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1896,7 +1946,7 @@ margin: 0 5px;
   .footer .content-4 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     

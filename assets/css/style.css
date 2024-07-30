@@ -7,25 +7,7 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
-
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /* --black-color: hsl(220, 24%, 12%);
-  --black-color-light: hsl(220, 24%, 15%);
-  --black-color-lighten: hsl(220, 20%, 18%);
-  --white-color: #fff;
-  --body-color: hsl(220, 100%, 97%); */
-
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  /* --body-font: "Montserrat", sans-serif;
-  --normal-font-size: .938rem; */
-
-  /*========== Font weight ==========*/
-  /* --font-regular: 400;
-  --font-semi-bold: 600; */
-
-  /*========== z index ==========*/
+   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -33,7 +15,7 @@
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1024px) {
   :root {
-    --normal-font-size: 1rem;
+    /* --normal-font-size: 1rem; */
   }
 }
 
@@ -72,8 +54,6 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--black-color);
-  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
 }
 
@@ -99,7 +79,7 @@ a {
   display: inline-flex;
   align-items: center;
   column-gap: .25rem;
-  font-weight: var(--font-semi-bold);
+  /* font-weight: var(--font-semi-bold); */
   /* Color highlighting when pressed on mobile devices */
   /*-webkit-tap-highlight-color: transparent;*/
 }
@@ -354,13 +334,17 @@ a {
 }
 .nav__menu .nav__list .nav-link:hover{
   text-decoration: underline;
+  text-decoration-color: #ff3465;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  
   
 }
 .header .container .nav__menu .nav__list .nav__link  {
 font-family: "Outfit", sans-serif;
 font-style: normal;
 font-size: 18px;
-font-weight: 500;
+font-weight:300;
 line-height: 20px;
 color: #000;
 margin: 0 5px;
@@ -401,7 +385,7 @@ margin: 0 5px;
   font-weight: 600;
   color: #000;
   font-size: 36px;
-  line-height: 43px;
+  line-height: 40px;
   margin:11 0px;
 }
 .text h6{
@@ -483,7 +467,7 @@ margin: 0 5px;
 .features{
   text-align: center;
   position: relative;
-  top: 20px;
+  top: 40px;
   color: #1BA48B;
   font-family: "Outfit", sans-serif;
   font-style: normal;
@@ -1170,7 +1154,7 @@ margin: 0 5px;
       
   }
   .task-management .task-managementcontent .right-content button{
-    background-color: #b6004e;
+    background-color: #ff3465;
     color: #fff;
     padding: 10px;
     margin: 15px;
@@ -1186,6 +1170,9 @@ margin: 0 5px;
   }
   .task-management .task-managementcontent .right-content button:hover{
     cursor: pointer;
+    border: 2px solid #ff3465;
+    background-color: #fff;
+    color: #ff3465;
   }
 }
 
@@ -1765,7 +1752,7 @@ margin: 0 5px;
   .footer .content-1 p{
     font-family: "Outfit",sans-serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 38px;
     color: #000;
@@ -1787,7 +1774,7 @@ margin: 0 5px;
   .footer .content-2 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1809,7 +1796,7 @@ margin: 0 5px;
   .footer .content-3 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1835,7 +1822,7 @@ margin: 0 5px;
   .footer .content-4 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     

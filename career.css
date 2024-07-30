@@ -73,7 +73,7 @@ a {
   left: 0;
   width: 100%;
   background-color: var(--black-color);
-  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  /* box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3); */
   z-index: var(--z-fixed);
 }
 
@@ -354,17 +354,25 @@ a {
 }
 .nav__menu .nav__list .nav-link:hover{
   text-decoration: underline;
+  text-decoration-color: #ff3465;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  
   
 }
 .header .container .nav__menu .nav__list .nav__link  {
 font-family: "Outfit", sans-serif;
 font-style: normal;
 font-size: 18px;
-font-weight: 500;
+font-weight:300;
 line-height: 20px;
 color: #000;
 margin: 0 5px;
+/* border: 1px solid red; */
 }
+
+
+
 
 
 
@@ -391,7 +399,7 @@ margin: 0 5px;
     font-weight: 500px;
     line-height: 38px;
     position: relative;
-    left: 50px;
+    left: 92px;
   }
   /* end of career section */
 
@@ -861,6 +869,8 @@ margin: 0 5px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .workwithus-section .content{
@@ -869,6 +879,8 @@ margin: 0 5px;
     background-color: #34495e;
     color: #fff;
     text-align: left;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
     
   }
   .workwithus-section .content h2{
@@ -902,7 +914,9 @@ margin: 0 5px;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 150px;
+    /* right: 150px; */
+    /* text-align: left; */
+    box-sizing: border-box;
   }
   .workwithus-section .form label{
     font-size: 21px;
@@ -1314,7 +1328,7 @@ margin: 0 5px;
   .footer .content-1 p{
     font-family: "Outfit",sans-serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 38px;
     color: #000;
@@ -1336,7 +1350,7 @@ margin: 0 5px;
   .footer .content-2 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1358,7 +1372,7 @@ margin: 0 5px;
   .footer .content-3 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     
@@ -1384,7 +1398,7 @@ margin: 0 5px;
   .footer .content-4 ul a li{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    size: 16px;
+    size: 18px;
     font-weight: 400;
     line-height: 38px;
     

@@ -8,15 +8,24 @@
      <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/style.css">
       <title>Sysmix</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 20
+    }
+    </style>
    </head>
-   <body>
+   <body style="overflow-x: hidden;">
       <!--=============== HEADER ===============-->
-      <header class="header" style="background-color: #fff; height: 80px; font-family: 'Outfit',sans-serif; font-style: normal; font-weight: 500;
+      <header class="header" style="background-color: #fff; height: 80px; font-family:'Outfit',sans-serif; font-style: normal; font-weight:300;
       color: #000; line-height: 20px;font-size: 18px;">
          <nav class="nav container">
             <div class="nav__data">
@@ -34,10 +43,10 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav-link active-link">
-                     <a href="index.html" class="nav__link" style="text-decoration: underline;">Home</a>
+                     <a href="index.html" class="nav__link" style="text-decoration: underline;text-decoration-color: #ff3465;text-decoration-thickness: 2px; text-underline-offset: 10px;">Home</a>
                   </li>
                   <li class="nav-link">
-                     <a href="/features.html" class="nav__link">Features</a>
+                     <a href="features.html" class="nav__link">Features</a>
                   </li>
 
                   <!--=============== DROPDOWN 1 ===============-->
@@ -47,11 +56,13 @@
 
                   <!--=============== DROPDOWN 2 ===============-->
                   <li class="dropdown__item"  >
+                    <a href="flavourindustry.html">
                      <div class="nav__link"  >
                         Industries <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                      </div>
+                    </a>
                      <ul class="dropdown__menu">
-                       <div style=" position: relative;
+                       <div style=" position: relative;top: -10px;
                        right: 2000px; background-color: #5c84ab; color: #fff; width:4000px;max-width: 4000px;box-sizing: border-box;
                        text-align: center;display: flex;
                        justify-content: center;align-items: center; height: 200px;flex: 1;">
@@ -173,10 +184,10 @@
           <div class="bottleneck-section">
             <div class="bottleneck-content">
                <div class="bottlenect-leftcontent">
-                     <h1>Identify Bottlenecks <br>
+                     <h1>Identify Bottlenecks 
                         with Pipeline View</h1>
-                        <p>Spot and resolve bottlenecks pertaining to a sales request using Stack|N|Trace’s intuitive visual pipeline view <br> where one can clearly see a request’s path. Bottlenecks <br>
-                           related to a group of requests can also be effectively troubleshooted using the pipeline view analysis for a <br> range of requests.</p>
+                        <p>Spot and resolve bottlenecks pertaining to a sales request using Stack|N|Trace’s intuitive visual pipeline view <br> where one can clearly see a request’s path. Bottlenecks 
+                           related to a group of requests can also be effectively troubleshooted using the pipeline view analysis for a  range of requests.</p>
                </div>
                <div class="bottleneck-rightcontent">
                   <img src="./images/Page 10.png" alt="">
@@ -195,9 +206,9 @@
                   </div>
                   <div class="right-content">
                      <h1>
-                        End-to-end Task Management <br>
+                        End-to-end Task Management 
                         with Push & E-Mail Notifications</h1>
-                     <p>Never miss a follow-up with Stack|N|Trace CRM’s push and email notifications for tasks  and <br> follow-up activities, whether it’s sales visits or preparing for packing and shipping.</p>
+                     <p>Never miss a follow-up with Stack|N|Trace CRM’s push and email notifications for tasks  and  follow-up activities, whether it’s sales visits or preparing for packing and shipping.</p>
                      <a href="features.html"><button>View More</button></a>
                   </div>
                </div>
@@ -237,32 +248,37 @@
              <!-- end of industry-content -->
 
              <!-- start of footer section -->
-              <div class="footer">
-               <div class="content-1" style="margin-left:150px;">
-                  <img src="./images/Page 2sysmix logo.png" alt="" style="width: 150px; height: 47px;" >
-                  <p>Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real  time.</p>
+             <div class="footer">
+               <div class="content-1" style="margin-left:100px;margin-bottom: 40px;">
+                  <img src="./images/Page 2sysmix logo.png" alt="" style="width: 150px; height: 47px;">
+                  <p>Gain actionable intelligence on exceptions and <br>anomalies and respond to customers in real time.</p>
                </div>
                <div class="content-2">
                   <h1>Industries</h1>
                   <ul>
-                      <a href="flavourindustry.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> The Flavour Industry</li></a>
-                     <a href="seafoodindustry.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> The Seafood Industry</li></a>
-                     <a href="otherindustries.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Other Industry</li></a>
+                      <a href="flavourindustry.html"><li><span class="material-symbols-outlined" style="font-size: 20px; color: black; margin-right:5px;">check</span>The Flavour Industry</li></a>
+                     <a href="seafoodindustry.html"><li><span class="material-symbols-outlined" style="font-size: 20px; color: black; margin-right:5px;">check</span>The Seafood Industry</li></a>
+                     <a href="otherindustries.html"><li><span class="material-symbols-outlined" style="font-size: 20px; color: black; margin-right:5px;">check</span>Other Industry</li></a>
                   </ul>
                </div>
                <div class="content-3">
                   <h1>Quick Links</h1>
                   <ul>
-                     <a href="features.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Features</li></a>
-                     <a href="aboutus.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> About Us</li></a>
-                     <a href="career.html"><li><i class="fa-solid fa-check" style="color:#000;"></i> Careers</li></a>
+                     <a href="features.html"><li><span class="material-symbols-outlined" style="font-size: 20px; color: black; margin-right:5px;">check</span>Features</li></a>
+                     <a href="aboutus.html"><li><span class="material-symbols-outlined" style="font-size: 20px; color: black; margin-right:5px;">check</span>About Us</li></a>
+                     <a href="career.html"><li><span class="material-symbols-outlined" style="font-size: 20px; color: black; margin-right:5px;">check</span>Careers</li></a>
                   </ul>
                </div>
-               <div class="content-4" style="margin-right: 150px;">
+               <div class="content-4" style="margin-right: 100px;">
                   <h1>Contact Us</h1>
                   <ul>
-                     <a href=""><li><i class="fa-solid fa-phone"style="color:#000;"></i> 9884037476</li></a>
-                     <a href=""><li><i class="fa-solid fa-envelope " style="color:#000;"></i> sales@sysmix.com</li></a>
+                     <a href=""><li><span class="material-symbols-outlined" style="font-size: 20px;
+                     color: #000; margin-right:5px;">
+                        call</span>9884037476</li></a>
+                     <a href=""><li><span class="material-symbols-outlined" style="font-size:20px;
+                     margin-right:5px;
+                     color: #000;">
+                        mail</span>sales@sysmix.com</li></a>
                      <div style="display: flex;flex-direction: row; margin-top: 6px;">
                         <i class="fa-brands fa-facebook-f " style="margin: 5px 5px; cursor: pointer;"></i>
                         <i class="fa-brands fa-instagram" style="margin: 5px 5px; cursor: pointer;"></i>
